@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>mds.knit</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  { color: #cccccc; background-color: #303030; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ffcfaf; } /* Alert */
+code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bn { color: #dca3a3; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #f0dfaf; } /* ControlFlow */
+code span.ch { color: #dca3a3; } /* Char */
+code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
+code span.co { color: #7f9f7f; } /* Comment */
+code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
+code span.do { color: #7f9f7f; } /* Documentation */
+code span.dt { color: #dfdfbf; } /* DataType */
+code span.dv { color: #dcdccc; } /* DecVal */
+code span.er { color: #c3bf9f; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #c0bed1; } /* Float */
+code span.fu { color: #efef8f; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
+code span.kw { color: #f0dfaf; } /* Keyword */
+code span.op { color: #f0efd0; } /* Operator */
+code span.ot { color: #efef8f; } /* Other */
+code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
+code span.sc { color: #dca3a3; } /* SpecialChar */
+code span.ss { color: #cc9393; } /* SpecialString */
+code span.st { color: #cc9393; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #cc9393; } /* VerbatimString */
+code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    About me
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./education.html">Education</a>
+    </li>
+    <li>
+      <a href="./aboutme.html">Learn more about me</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="./publications.html">Publications</a>
+</li>
+<li>
+  <a href="./teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="./talks.html">Talks</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Tutorials
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./pARIEEG.html">Permutation Based Cluster Mass for EEG data</a>
+    </li>
+    <li>
+      <a href="./mds.html">Multidimensional scaling for fMRI data</a>
+    </li>
+    <li>
+      <a href="./intro_python.html">Introduction to Python</a>
+    </li>
+    <li>
+      <a href="./start_python.html">Start with Python</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="./contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/angeella">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.unive.it/data/persone/25410137">
+    <span class="fa fa-university"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>In this tutorial, the aim is to show a simple application of
+<strong>multidimensional scaling techniques</strong> having <strong>fMRI
+data</strong>. You can download the entire dataset from the <a
+href="https://openfmri.org/dataset/ds000105/">OpenfMRI</a> website that
+provides free access to neuroimaging datasets. However, in this short
+tutorial, we will analyze the fMRI data of 5 subjects. Each subject has
+12 runs, and each run is composed of 121 scans. During each scan, the
+individual is subjected to a 24-seconds stimuli followed by a 12-seconds
+pause. The stimulus consists of the visualization of certain objects,
+people, or animals images. In particular, 8 different categories of
+grey-scale images of houses, cats, bottles, nonsense patterns, chairs,
+scissors, shoes, and faces were used. For more details, please see the
+<a href="https://openfmri.org/dataset/ds000105/">OpenfMRI</a>
+website.</p>
+<p>The aim is to represent the <strong>brain activities</strong>
+described by voxels in two dimensions, discovering some clusters that
+correspond to the brain activities due to the different stimuli.
+Therefore, the <strong>multidimensional scaling techniques</strong> is
+applied.</p>
+</div>
+<div id="data" class="section level1">
+<h1>Data</h1>
+<p>You can download directly the data described previously from this <a
+href="https://drive.google.com/open?id=1DceMW-cUf-c3j3jA3Djh8oIL2bhM8U-z">link</a>.
+You will find 5 .Rdata files, one for each subject analyzed. Each .Rdata
+file is a list of 12 numeric elements, one for each run. Each element is
+a matrix with dimension <span class="math inline">\((40 \times 64 \times
+64) \times 121\)</span>, where the rows represent the number of voxels
+and the columns the number of scans. For more details about the data
+preprocessing, please send me an email
+(angelaDOTandreellaATstatDOTunipdDOTit).</p>
+<p>So, first of all, you must download the libraries and the .rData
+files:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)<span class="co">#plot</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(vegan)<span class="co">#matrix dissimilarities</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(smacof)<span class="co">#SMACOF for Individual Differences</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stats) <span class="co">#multidimensional scaling</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;your_path/dati_fmri_sub1.rData&quot;</span>) <span class="co">#considering the first subject as example</span></span></code></pre></div>
+<p>and save the first run discarding the last settling volume considered
+as noise, and the corresponding labels stimuli:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sub1_run1_XX1 <span class="ot">&lt;-</span><span class="fu">crossprod</span>(sub1_run_X[[<span class="dv">1</span>]])[<span class="sc">-</span><span class="dv">121</span>,<span class="sc">-</span><span class="dv">121</span>]</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>label_mds1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="st">&quot;scissors&quot;</span>,<span class="dv">12</span>),<span class="fu">rep</span>(<span class="st">&quot;faces&quot;</span>,<span class="dv">12</span>),<span class="fu">rep</span>(<span class="st">&quot;cats&quot;</span>,<span class="dv">12</span>), <span class="fu">rep</span>(<span class="st">&quot;shoes&quot;</span>,<span class="dv">12</span>), <span class="fu">rep</span>(<span class="st">&quot;house&quot;</span>,<span class="dv">12</span>),<span class="fu">rep</span>(<span class="st">&quot;scrambledpix&quot;</span>,<span class="dv">12</span>),<span class="fu">rep</span>(<span class="st">&quot;bottle&quot;</span>,<span class="dv">12</span>) , <span class="fu">rep</span>(<span class="st">&quot;chair&quot;</span>,<span class="dv">12</span>),<span class="fu">rep</span>(<span class="st">&quot;pausa&quot;</span>,<span class="dv">12</span>),<span class="fu">rep</span>(<span class="st">&quot;pausa&quot;</span>,<span class="dv">12</span>))</span></code></pre></div>
+<p>the object sub1_run1_XX1 is our <span
+class="math inline">\(X\)</span> matrix. Then, we are ready to apply the
+multidimensional scaling technique.</p>
+</div>
+<div id="multidimensional-scaling" class="section level1">
+<h1>Multidimensional Scaling</h1>
+<p>The <span class="math inline">\(X^\top X\)</span> matrix, with
+dimension <span class="math inline">\(120 \times 120\)</span> was
+constructed after centering the matrix <span
+class="math inline">\(X\)</span>. The matrix of Euclidean distances was
+calculated and classical multidimensional scaling was applied, thanks to
+the <strong>vegan</strong> package:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>sub1_run1_dist_eu <span class="ot">&lt;-</span><span class="fu">vegdist</span>(<span class="fu">decostand</span>(sub1_run1_XX1,<span class="at">method =</span> <span class="st">&quot;standardize&quot;</span>),<span class="at">method =</span> <span class="st">&quot;euclidean&quot;</span>) <span class="co">#euclidean distance</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>mds <span class="ot">&lt;-</span> <span class="fu">cmdscale</span>(sub1_run1_dist_eu) <span class="co">#multidimensional scaling</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>mds1<span class="ot">&lt;-</span><span class="fu">as.data.frame</span>(<span class="fu">cbind</span>(mds,label_mds1)) </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>mds1<span class="sc">$</span>V1<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(<span class="fu">as.character</span>(mds1<span class="sc">$</span>V1)); mds1<span class="sc">$</span>V2<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(<span class="fu">as.character</span>(mds1<span class="sc">$</span>V2))</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>centroids <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(<span class="fu">cbind</span>(V1,V2)<span class="sc">~</span>label_mds1,mds1,mean) <span class="co">#compute centroids</span></span></code></pre></div>
+<p>and then, we plot the eulidean distances and the corresponding
+centroids computed:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>cols <span class="ot">=</span> <span class="fu">c</span>(<span class="st">&#39;red&#39;</span>, <span class="st">&#39;blue&#39;</span>, <span class="st">&#39;black&#39;</span>, <span class="st">&#39;steelblue&#39;</span>, <span class="st">&#39;green&#39;</span>, <span class="st">&#39;pink&#39;</span>,<span class="st">&#39;orange&#39;</span>,<span class="st">&#39;yellow&#39;</span>,<span class="st">&#39;brown&#39;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(mds1[,<span class="dv">1</span>],mds1[,<span class="dv">2</span>], <span class="at">type =</span> <span class="st">&#39;n&#39;</span>,<span class="at">xlab=</span><span class="st">&quot;First dimension&quot;</span>,<span class="at">ylab=</span><span class="st">&quot;Second dimension&quot;</span>,<span class="at">main =</span> <span class="st">&quot;First Run&quot;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">points</span>(mds1[,<span class="dv">1</span>],mds1[,<span class="dv">2</span>], <span class="at">col =</span> cols[<span class="fu">as.factor</span>(mds1[,<span class="dv">3</span>])], <span class="at">pch =</span> <span class="dv">18</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">points</span>(centroids[,<span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>], <span class="at">col =</span> cols[<span class="fu">as.factor</span>(centroids[,<span class="dv">1</span>])], <span class="at">pch =</span> <span class="dv">17</span>,<span class="at">cex=</span><span class="dv">2</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">&#39;topright&#39;</span>, <span class="at">col=</span>cols, <span class="at">legend=</span><span class="fu">levels</span>(<span class="fu">as.factor</span>(mds1[,<span class="dv">3</span>])),<span class="at">pch=</span><span class="dv">18</span>, <span class="at">cex =</span> <span class="fl">0.7</span>)</span></code></pre></div>
+<p><img src="mds.png" /></p>
+<p>We can see that the multidimensional scaling technique permits to
+represent this heavy matrix into two-dimensional space, also, we can see
+that are some clusters. All brain activities given by a particular
+category of stimulus are represented in the same cluster. Then, the
+y-axis can describe the stimulus categories and the x-axis the various
+scans applied. It is a very useful plot that summarizes our
+multidimensional data. We can note, also, that the brain activities
+given by animate objects, as faces and cats, are closer together
+compared to inanimate objects, like bottles, scissors and so, but to
+test this aspect we need more computation that is outside of this simple
+tutorial. Another important aspect is how the representation of brain
+activity changes across runs. Therefore, we have applied the procedure
+just explained considering the runs 3, 6, 9 and 12 of the first
+subject:</p>
+<p><img src="plot_sub1_runALL.png" /></p>
+<p>We can note something a little bit strange, across the time the
+division of cluster gets worse, probably due to loss of subject
+attention.</p>
+<p>We must note, also, that this method of multidimensional scaling
+applied provides the same results coming from the <strong>principal
+component analysis</strong>. Below, the code used to do the principal
+component analysis:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>pca <span class="ot">&lt;-</span><span class="fu">prcomp</span>(sub1_run1_XX1,<span class="at">center =</span> <span class="cn">TRUE</span>,<span class="at">scale. =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>PC_fmri<span class="ot">&lt;-</span><span class="fu">data.frame</span>(pca<span class="sc">$</span>x,<span class="at">label_mds1=</span>label_mds1)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>centroids_PCA <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(<span class="fu">cbind</span>(PC1,PC2)<span class="sc">~</span>label_mds1,PC_fmri,mean)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(PC_fmri,<span class="fu">aes</span>(<span class="at">x=</span>PC1,<span class="at">y=</span>PC2,<span class="at">color=</span>label_mds1)) <span class="sc">+</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size=</span><span class="dv">3</span>)<span class="sc">+</span> <span class="fu">geom_point</span>(<span class="at">data=</span>centroids_PCA,<span class="at">size=</span><span class="dv">5</span>) <span class="sc">+</span> <span class="fu">scale_shape_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="dv">3</span>,<span class="dv">23</span>)) <span class="sc">+</span> </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_reverse</span>() <span class="sc">+</span> <span class="fu">scale_colour_manual</span>(<span class="at">values =</span> cols)</span></code></pre></div>
+<p><img src="plot_sub1_run1_pca.png" /></p>
+<p>Finally, we want to see if, having reduced the dimensionality of our
+data, the method of multidimensional scaling preserves the original
+distances. In the following plot, we represent the original distances
+versus the distances obtained from the multidimensional scaling
+method:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>distOR<span class="ot">&lt;-</span><span class="fu">dist</span>(sub1_run1_dist_eu)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>distMDS <span class="ot">&lt;-</span> <span class="fu">dist</span>(mds[,<span class="dv">1</span><span class="sc">:</span><span class="dv">2</span>])</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>dist_plot<span class="ot">&lt;-</span><span class="fu">as.data.frame</span>(<span class="fu">cbind</span>(distMDS,distOR))</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dist_plot,<span class="fu">aes</span>(<span class="at">x=</span>distOR,<span class="at">y=</span>distMDS))<span class="sc">+</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size=</span><span class="dv">3</span>) <span class="sc">+</span> <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)<span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">&quot;Original distance vs mds configuration distance&quot;</span>) <span class="sc">+</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">&quot;Original distance&quot;</span>) <span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">&quot;Mds distance&quot;</span>)</span></code></pre></div>
+<p><img src="./diagnosticplot_sub1_run1.png" /></p>
+</div>
+<div id="individual-differences-scaling-indscal" class="section level1">
+<h1>Individual Differences Scaling (INDSCAL)</h1>
+<p>In this second part, the data of all 5 individuals across 12 runs are
+analyzed. Individual proximity matrices are aggregated into a single
+analysis thanks to the INDSCAL algorithm developed on the
+<strong>SMACOF</strong> (Scaling by MAjorizing a COmplicated Function)
+package.</p>
+<p>At first, we created the 12 matrices $ X^TX $, one for each run,
+considering the first subject:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>sub1_covariance <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>sub_1_dist <span class="ot">&lt;-</span><span class="fu">list</span>()</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>nrun){</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  sub1_covariance[[i]] <span class="ot">&lt;-</span> <span class="fu">crossprod</span>(sub1_run_X[[i]])</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Then, we calculate the matrix <strong>Riemann distance</strong>
+between these 12 covariances:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>distR_1 <span class="ot">&lt;-</span> <span class="fu">outer</span>(<span class="fu">seq_along</span>(sub1_covariance), <span class="fu">seq_along</span>(sub1_covariance), </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">FUN=</span> <span class="fu">Vectorize</span>(<span class="cf">function</span>(i,j) <span class="fu">distcov</span>(sub1_covariance[[i]], sub1_covariance[[j]],<span class="at">method =</span> <span class="st">&quot;Riemannian&quot;</span>)))</span></code></pre></div>
+<p>We redo these steps for all subjects, so, we will have 5 objects
+saved into the distr_all list:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dist_all <span class="ot">&lt;-</span> <span class="fu">list</span>(distR_1, distR_2, distR_3, distR_4, distR_5)</span></code></pre></div>
+<p>Finally, we applied metric multidimensional scaling
+<strong>INDSCAL</strong> to these 5 matrices of dissimilarity:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>ind_fmri <span class="ot">&lt;-</span> <span class="fu">smacofIndDiff</span>(dist_all, <span class="at">type =</span> <span class="st">&quot;mspline&quot;</span>,<span class="at">spline.intKnots =</span> <span class="dv">50</span>,<span class="at">itmax =</span> <span class="dv">1000</span>,<span class="at">spline.degree =</span> <span class="dv">5</span>,<span class="at">ndim =</span> <span class="dv">2</span>)</span></code></pre></div>
+<p>and plot the individual differences:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>sub1_w <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(ind_fmri<span class="sc">$</span>cweights[[<span class="dv">1</span>]])</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>sub2_w <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(ind_fmri<span class="sc">$</span>cweights[[<span class="dv">2</span>]])</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>sub3_w <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(ind_fmri<span class="sc">$</span>cweights[[<span class="dv">3</span>]])</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>sub4_w <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(ind_fmri<span class="sc">$</span>cweights[[<span class="dv">4</span>]])</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>sub5_w <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(ind_fmri<span class="sc">$</span>cweights[[<span class="dv">5</span>]])</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sub1_w[<span class="dv">1</span>,<span class="dv">1</span>],sub1_w[<span class="dv">2</span>,<span class="dv">2</span>],<span class="at">xlab=</span><span class="st">&quot;Weight of dimension 1&quot;</span>,<span class="at">ylab=</span><span class="st">&quot;Weight of dimension 2&quot;</span>,<span class="at">type =</span> <span class="st">&quot;n&quot;</span>,<span class="at">main=</span><span class="st">&quot;INDSCAL weights of 5 subjects&quot;</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(sub1_w[<span class="dv">1</span>,<span class="dv">1</span>],sub1_w[<span class="dv">2</span>,<span class="dv">2</span>],<span class="at">labels =</span> <span class="st">&quot;1&quot;</span>,<span class="at">cex =</span> <span class="dv">1</span>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(sub2_w[<span class="dv">1</span>,<span class="dv">1</span>],sub2_w[<span class="dv">2</span>,<span class="dv">2</span>],<span class="at">labels =</span> <span class="st">&quot;2&quot;</span>,<span class="at">cex =</span> <span class="dv">1</span>)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(sub3_w[<span class="dv">1</span>,<span class="dv">1</span>],sub3_w[<span class="dv">2</span>,<span class="dv">2</span>],<span class="at">labels =</span> <span class="st">&quot;3&quot;</span>,<span class="at">cex =</span> <span class="dv">1</span>)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(sub4_w[<span class="dv">1</span>,<span class="dv">1</span>],sub4_w[<span class="dv">2</span>,<span class="dv">2</span>],<span class="at">labels =</span> <span class="st">&quot;4&quot;</span>,<span class="at">cex =</span> <span class="dv">1</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(sub5_w[<span class="dv">1</span>,<span class="dv">1</span>],sub5_w[<span class="dv">2</span>,<span class="dv">2</span>],<span class="at">labels =</span> <span class="st">&quot;5&quot;</span>,<span class="at">cex =</span> <span class="dv">1</span>)</span></code></pre></div>
+<p><img src="plot_INDSCAL_ind.png" /></p>
+<p>This plot represents the similarities between brain activities of
+different individuals, a similarity space across 5 subjects. So, the
+individual 2 reacted similarly to the individual 5 but he/she is
+different from the individual 3. Then, homogeneities between subjects
+and/or any outliers could be noted.</p>
+<p>Therefore, this plot represents the weights of each subject into the
+common space plot. So, the subject 3 has a greater weight into the
+second dimension than the first dimension, instead, the reverse
+situation is found considering the subjects 2 and 5.</p>
+<p>Thanks to the following code:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(ind_fmri<span class="sc">$</span>gspace[, <span class="dv">1</span>], ind_fmri<span class="sc">$</span>gspace[, <span class="dv">2</span>],<span class="at">type =</span> <span class="st">&quot;p&quot;</span>,<span class="at">cex=</span><span class="dv">1</span>,<span class="at">pch=</span><span class="dv">20</span>,<span class="at">col=</span><span class="st">&quot;blue&quot;</span>,<span class="at">ylim =</span> <span class="fu">c</span>(<span class="fu">min</span>(ind_fmri<span class="sc">$</span>gspace[, <span class="dv">2</span>]),<span class="fu">max</span>(ind_fmri<span class="sc">$</span>gspace[, <span class="dv">2</span>])<span class="sc">*</span><span class="fl">1.4</span>),<span class="at">main =</span> <span class="st">&quot;INDSCAL Configuration&quot;</span>,<span class="at">xlab =</span> <span class="st">&quot;First dimension&quot;</span>,<span class="at">ylab =</span> <span class="st">&quot;Second dimension&quot;</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(ind_fmri<span class="sc">$</span>gspace[, <span class="dv">1</span>], ind_fmri<span class="sc">$</span>gspace[, <span class="dv">2</span>],<span class="at">pos=</span><span class="dv">3</span>,<span class="at">labels =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">12</span>),<span class="at">col=</span><span class="st">&quot;blue&quot;</span>,<span class="at">cex=</span><span class="fl">0.85</span>)</span></code></pre></div>
+<p>we can analyze the (dis)similarity calculated for each run across all
+individuals. We can see that the brain activities detected during the
+first run are far from the brain activities of the other runs:</p>
+<p><img src="plot_INDSCAL.png" /></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
