@@ -6,14 +6,18 @@ left:
     menu:
       - text: "Learn more about me"
         href: ./aboutme.html
-  - text: "Project"
-    menu:
-       - text: "Project part 1"
-         href: ./project1.html
-       - text: "Project part 2"
-         href: ./project2.html
+  - text: "Publications"
+    href: ./publications.html
+  - text: "Teaching"
+    href: ./teaching.html 
+  - text: "Talks"
+    href: ./talks.html 
+  - text: "Tutorials"
+    href: ./tutorials.html 
   - text: "Contact"
     href: ./contact.html
 right:
   - icon: fa-github fa-lg
     href: https://github.com/angeella
+  - icon: fa fa-university
+    href: https://www.unive.it/data/persone/25410137
