@@ -2,6 +2,8 @@ name: "Angela Andreella"
 title: ""
 type: inverse
 left:
+  - icon:  fa fa-home
+    href: .
   - text: "About me"
     menu:
       - text: "Education"
@@ -31,3 +33,7 @@ right:
     href: https://github.com/angeella
   - icon: fa fa-university
     href: https://www.unive.it/data/persone/25410137
+  - icon: fa fa-graduation-cap
+    href: https://www.researchgate.net/profile/Angela-Andreella/
+  - icon: fa-google
+    href: https://scholar.google.it/citations?hl=it&user=SlEF5W4AAAAJ
