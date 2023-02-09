@@ -1,0 +1,33 @@
+---
+title: ""
+output: 
+  html_document:
+    toc: FALSE
+---
+
+### `r emoji::emoji("teapot")` Teaching
+
+* [ay 2022-2023] Statistic, PhD in Neuroscience, University of Padova [6 hours]
+
+* [ay 2022-2023] Health Data Science, Master Degree in Data Analytics for Business and Society, University of Venice. [30 hours]
+
+* [ay 2022-2023] Laboratory for the Statistic course, Bachelor Degree in Economics, University of Venice [30 hours] *lecturer*
+
+* [ay 2021-2022] Statistic, Bachelor Degree in Economics, University of Venice [30 hours]
+
+* [ay  2021-2022] Laboratory for the Statistical Learning for data science course, Master Degree in Data Analytics for Business and Society, University of Venice. [10 hours] *lecturer*
+
+* [ay  2021-2022] Laboratory for the Psychometrics course, Bachelor of Science in Psychological Science and Techniques, University of Padova [30 hours] *lecturer*
+
+* [ay 2020-2021] Applied statistical models (module I), Bachelor Degree of Statistics, University of Padova [20 hours] *lecturer*
+
+* [ay  2020-2021] Laboratory for the Psychometrics course, Bachelor of Science in Psychological Science and Techniques, University of Padova [30 hours] *lecturer*
+
+* [ay 2020-2021] Laboratory for the Psychometrics course, Bachelor Degree in Psychological Sciences of Development, Personality personality and interpersonal relations, University of Padova [20 hours] *lecturer*
+
+### `r emoji::emoji("teapot")` Educational lectures
+
+
+* [ay 2021-2022] Permutation-based cluster inference in Electroencephalography (EEG) data, Lecture didactic within the teaching "Psychometrics for Cognitive Neuroscience," Master degree in Statistic, University of Padova, Italy.
+
+* [ay 2020-2021] Permutation-based cluster inference in Electroencephalography (EEG) data, Lecture didactic within the teaching "Psychometrics for Cognitive Neuroscience," Master degree in Statistic, University of Padova, Italy.

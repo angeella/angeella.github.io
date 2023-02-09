@@ -4,6 +4,8 @@ type: inverse
 left:
   - text: "About me"
     menu:
+      - text: "Education"
+        href: ./education.html
       - text: "Learn more about me"
         href: ./aboutme.html
   - text: "Publications"

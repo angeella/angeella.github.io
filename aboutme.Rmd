@@ -1,7 +1,76 @@
 ---
-title: "ciao"
+title: ""
 output: 
   html_document:
     toc: FALSE
 ---
 
+### `r emoji::emoji("partly_sunny")` Past positions
+
+* [2021] 
+  
+  **Postdoctoral Researcher in Statistical Sciences, Department of Statistical Sciences, University of Padova.** 
+  
+  Project: A Bayesian Approach to the Procrustes-based problem.
+  
+* [2020] 
+  
+  **Postdoctoral Researcher in Statistical Sciences,  Department of Science and Technology, University of Insubria.** 
+  
+  Project: Tsunami Project - Prediction of the Impact of the COVID-19 Wave
+on the Emergency and Urgency System in Lombardy.
+
+
+### `r emoji::emoji("world_map")` Visiting
+
+* [2020] 
+  
+  Short Term Scientific Mission @ Data Science Lab, Universitá della Svizzera Italiana. COST ACTION, Lugano, Swizerland.
+  
+* [2019] 
+  
+  Visiting PhD Student @ LUMC, Department of Biomedical Data Sciences, Leiden, Netherlands.
+  
+* [2019] 
+  
+  Visiting PhD Student @ Dartmouth College, Department of Psychological and Brain Sciences, Hanover, NH, USA.
+  
+* [2013]
+
+  Erasmus Program @ Universitat de Barcelona, Department of Mathematics and Statistics.
+  
+  
+### `r emoji::emoji("star")`  Outreach & Professional Development
+
+* **[LANGUAGES]**: Italian (mother tongue), English, Spanish
+
+
+* **[PROGRAMMING LANGUAGE]**: 
+
+  Statistical Packages: R Software, SPSS, SAS, STATA
+  
+  Languages: R, Python, Matlab, C++, Markdown, SQL
+  
+  Other software: LaTeX, Gimp -FSL, GIT, Moodle
+  
+  Authors and/or collaborator R packages: pARI (CRAN), pecora (CRAN), PRDA (CRAN), rotoDistance (GitHub), alignProMises (GitHub), ARIeeg (GitHub), Python (PromisesModel).
+  
+  Authors and/or collaborator Python module: PromisesModel.
+
+* **[REFEREE]**: Psychometrika, Statistical Methods and Applications, International Journal of Environmental Research and Public Health, Behavioral
+Sciences, Animals, Journal of Affective Disorders, Intensive Care Medicine, Axioms
+
+* **[PROFESSIONAL MEMBERSHIPS]**: Società Italiana di Statistica, Italian Region of the International Organization for Human Brain Mapping (OHBM), Institute of
+Mathematical Statistics (IMS), Italian Association of Psychology (AIP)
+
+* **[ORGANIZER OF SCIENTIFIC EVENTS]**: 
+
+  Meeting Social Statisticians, 2022, Treviso, Italy, Ca' Foscari University Venice
+  
+  International Winter School - MRInference: from Memberships data to knowledge, 2020, online, University of Padova
+
+
+
+
+
+  

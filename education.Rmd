@@ -1,0 +1,28 @@
+---
+title: ""
+output: 
+  html_document:
+    toc: FALSE
+---
+
+### `r emoji::emoji("school")` Education
+
+* [10/2017 - 03/2021] 
+  
+  **PhD in Statistical Sciences, Department of Statistical Sciences, University of Padova.** 
+  
+  Thesis: Challenges in Functional Magnetic Resonance Imaging (fMRI)
+Data Analysis: From Functional Alignment to Selective Inference.
+
+* [10/2013 - 03/2016] 
+
+  **Master Degree in Statistical Sciences, Department of Statistical Sciences, University of Padova.** 
+  
+  Thesis: The Catalan National Movement analyzed by Twitter data.
+  
+* [10/2010 - 04/2013] 
+
+  **Bachelor Degree in Statistical Sciences, Department of Statistical Sciences, University of Padova.** 
+  
+  Thesis: Twitter Sentiment Analysis in Monti’s 2013 election campaign.
+  

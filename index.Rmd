@@ -5,7 +5,11 @@ output:
     toc: FALSE
 ---
 
-**Assistant professor in social statistics [RTD-A, SSD: SECS-S/05 (Statistica sociale)] @ University of Venice**
+<center>
+
+![](avatar.jpg){width=30%}
+
+</center>
 
 
 #### `r emoji::emoji("bulb")` Research interest
@@ -13,7 +17,6 @@ output:
 Mainly, my interest is to connect the statistic with different fields, such as social sciences, health sciences, psychology, neuroscience, and medicine improving both areas. My challenging is then analyzing these datas and their related problems with proper and/or novel statistical approaches. For that, I am a member of the [Psicostat](http://ip146179.psy.unipd.it/psicostat/web/) group at the University of Padova, and of the [LoLa](https://lola.projects.unibz.it/?page_id=367&lang=it) group.
 
 My statistical interests are in methods that permits to understand and manage high-dimensional data, i.e., dimension reduction techinques, statistical shape analysis, permutation tests, multiple testing and selective inference.
-
 
 #### `r emoji::emoji("bird")` Something about me
 
@@ -31,5 +34,5 @@ Another project of the Ph.D. thesis was about a permutation-based approach of th
 
 I am also collaborating with Paolo Brambilla and Giuseppe Delvecchio from Polyclinic of Milan on various psychiatrical and psychological projects.
 
-
+My cv is downloadable [here](cv.pdf) for the english version, and [here](cv.pdf) for the Italian one.
 
