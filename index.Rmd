@@ -5,6 +5,9 @@ output:
     toc: FALSE
 ---
 
-**Assistant professor in social statistics [RTD-A] @ University of Venice**
+#### Assistant professor in social statistics [RTD-A, SSD: SECS-S/05 (Statistica sociale)] @ University of Venice
 
-:bulb:
+#### Research interest
+
+`r emoji::emoji("bulb")` 
+
