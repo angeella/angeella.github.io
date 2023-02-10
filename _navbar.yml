@@ -3,7 +3,7 @@ title: ""
 type: inverse
 left:
   - icon:  fa fa-home
-    href: .
+    href: ./index.html
   - text: "About me"
     menu:
       - text: "Education"
