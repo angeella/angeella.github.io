@@ -7,7 +7,7 @@ output:
 
 ### `r emoji::emoji("book")` Articles in refereed journals
 
-* **Andreella, A.**, Finos, L., and Lindquist, M. (2022) Enhanced hyperalignment via spatial prior information. Human Brain Mapping [Link](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.26170)
+* **Andreella, A.**, Finos, L., and Lindquist, M. 2022. Enhanced hyperalignment via spatial prior information. Human Brain Mapping [Link](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.26170)
 
 * **Andreella, A.**, and Livio Finos. 2022. Procrustes analysis for high dimensional data. Psychometrika. [Link](https://link.springer.com/article/10.1007/s11336-022-09859-5)
 
@@ -52,7 +52,7 @@ ISBN: 9788891910776
 similarity, arXiv:2301.06164[stat.AP] [LINK](https://arxiv.org/abs/2301.06164)
 
 * **Andreella, A.**, Mira, A., Balafas, S., Wit, E. C., Ruggeri, F., Nattino, G., Ghilardi, G., and Bertolini, G. 2022. A predictive model
-for planning emergency events rescue during COVID-19 in Lombardy, Italy. arXiv:2203.14287v1[stat.AP] [LINK]https://arxiv.org/abs/2203.14287)
+for planning emergency events rescue during COVID-19 in Lombardy, Italy. arXiv:2203.14287v1[stat.AP] [LINK](https://arxiv.org/abs/2203.14287)
 
 * Andreella, A., Finos, L., Weeda, W., Hemerik, J., and Goeman, J. 2022. Permutation-based true discovery proportions
 for fMRI cluster analysis. arXiv:2012.00368[stat.AP] [LINK](https://arxiv.org/abs/2012.00368)

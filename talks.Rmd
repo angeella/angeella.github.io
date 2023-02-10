@@ -48,7 +48,9 @@ output:
 
 [2021] Functional alignment by the “light” approach of the von Mises-Fisher-Procrustes model, Società Italiana di Statistica (SIS) 2021, Milano. Italy
 
-[2021] pARI package: valid double-dipping via permutation-based All Resolutions Inference, EuroBioc, Padova. Italia. 2020. Quot capita, tot sententiae. Don’t Forget to Use Anatomical Features into the Alignment of fMRI Data, Cognitive Science Arena, Bressanone. Italy
+[2021] pARI package: valid double-dipping via permutation-based All Resolutions Inference, EuroBioc, Padova. Italia. 
+
+[2020] Quot capita, tot sententiae. Don’t Forget to Use Anatomical Features into the Alignment of fMRI Data, Cognitive Science Arena, Bressanone. Italy
 
 [2020] A Statistical approach to the alignment of fMRI data, 6th European Student Conference on Behaviour & Cognition, Padova. Italy
 
