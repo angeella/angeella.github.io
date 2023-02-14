@@ -14,3 +14,7 @@ output:
 `r emoji::emoji("office")`  Office C2.107, Department of Economics, University of Venice, San Giobbe, Cannaregio 873, 30121 Venezia
 
 
+
+My cv is downloadable [here](cv_eng.pdf) for the English version and [here](cv_ita.pdf) for the Italian one.
+
+
