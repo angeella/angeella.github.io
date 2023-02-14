@@ -34,5 +34,5 @@ Another project of the Ph.D. thesis was about a permutation-based approach to th
 
 I am also collaborating with Paolo Brambilla and Giuseppe Delvecchio from Polyclinic of Milan on various psychiatric and psychological projects.
 
-My cv is downloadable [here](cv.pdf) for the English version and [here](cv.pdf) for the Italian one.
+My cv is downloadable [here](cv_eng.pdf) for the English version and [here](cv_ita.pdf) for the Italian one.
 
