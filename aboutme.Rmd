@@ -57,11 +57,9 @@ on the Emergency and Urgency System in Lombardy.
   
   Authors and/or collaborator Python module: PromisesModel.
 
-* **[REFEREE]**: Psychometrika, Statistical Methods and Applications, International Journal of Environmental Research and Public Health, Behavioral
-Sciences, Animals, Journal of Affective Disorders, Intensive Care Medicine, Axioms
+* **[REFEREE]**: Psychometrika, Statistical Methods and Applications, International Journal of Environmental Research and Public Health, Behavioral Sciences, Animals, Journal of Affective Disorders, Intensive Care Medicine, Axioms
 
-* **[PROFESSIONAL MEMBERSHIPS]**: Società Italiana di Statistica, Italian Region of the International Organization for Human Brain Mapping (OHBM), Institute of
-Mathematical Statistics (IMS), Italian Association of Psychology (AIP)
+* **[PROFESSIONAL MEMBERSHIPS]**: Società Italiana di Statistica (SIS), Società Italiana di Biometria (SIB), International Organization for Human Brain Mapping (OHBM), Institute of Mathematical Statistics (IMS), Associazione Italiana di Psicologia (AIP)
 
 * **[ORGANIZER OF SCIENTIFIC EVENTS]**: 
 
