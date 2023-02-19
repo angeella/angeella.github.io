@@ -15,17 +15,17 @@ left:
   - text: "Teaching"
     href: ./teaching.html 
   - text: "Talks"
-    href: ./talks.html 
+    href: ./Talk/talks.html 
   - text: "Tutorials"
     menu:
       - text: "Permutation Based Cluster Mass for EEG data"
-        href: ./pARIEEG.html
+        href: ./Tutorials/pARIEEG.html
       - text: "Multidimensional scaling for fMRI data"
-        href: ./mds.html
+        href: ./Tutorials/mds.html
       - text: "Introduction to Python"
-        href: ./intro_python.html
+        href: ./Tutorials/intro_python.html
       - text: "Start with Python"
-        href: ./start_python.html
+        href: ./Tutorials/start_python.html
   - text: "Contact"
     href: ./contact.html
 right:
