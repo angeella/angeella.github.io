@@ -60,5 +60,4 @@ for fMRI cluster analysis. arXiv:2012.00368[stat.AP] [LINK](https://arxiv.org/ab
 * Andreella, A., Aliverti, E., Caldura, F., and Campostrini, S. 2023. Spatial clusters for demand and supply of childcare
 services in Italy [working paper]
 
-* Stocchero, M., Finos, L., Scarpa, B., and Andreella, A. 2023. Towards a power analysis and sample size estimation for
-PLS-based methods [working paper]
+* Towards a power analysis and sample size estimation for PLS-based methods [working paper]

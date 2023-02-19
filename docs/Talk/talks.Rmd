@@ -10,47 +10,45 @@ output:
 
 ### `r emoji::emoji("parrot")` Invited seminars
 
-[2023] Graph Theoretic Foundation of Networks in R. Summer School in Network Econometrics, VERA, SIdE-IEA, Venezia, Italy
-
 [2022] Moving beyond linearity. Summer School in Social Statistics, Anacapri, Italy
 
-[2022]  Graph Theoretic Foundation of Networks in R. Summer School in Network Econometrics, VERA, SIdE-IEA, Venezia, Italy
+[2022]  Graph Theoretic Foundation of Networks in R. Summer School in Network Econometrics, VERA, SIdE-IEA, Venezia, Italy [MATERIALS](https://github.com/angeella/Summer_School_2022_VERA)
 
-[2019]  How to improve the functional alignment of fMRI data using spatial brain information?. High dimensional reading club, LUMC, Department of Biomedical Data Sciences, Leiden, Netherland.
+[2019]  How to improve the functional alignment of fMRI data using spatial brain information?. High dimensional reading club, LUMC, Department of Biomedical Data Sciences, Leiden, Netherland. [SLIDES](Slides/LUMC.pdf)
 
 [2019] A Statistical approach to the alignment of fMRI data. Dartmouth College, Department of Psychological and Brain Sciences, Hanover, NH, USA.
 
 ### `r emoji::emoji("parrot")` Invited talks
 
-[2022] Enhanced hyperalignment via spatial prior information. Psicostat, Padova, Italy.
+[2022] Enhanced hyperalignment via spatial prior information. Psicostat, Padova, Italy. [SLIDES](Slides/Psicostat2022.pdf)
 
 [2020] A Statistical approach to the alignment of fMRI data. Psicostat, Padova, Italy.
 
-[2019] First steps with Python. Psicostat, Padova, Italy.
+[2019] First steps with Python. Psicostat, Padova, Italy. 
 
 ### `r emoji::emoji("parrot")` Invited talks as discussant
 
-[2022] Notip: Non-parametric True Discovery Proportion control for brain imaging. International Seminar on Selective Inference.
+[2022] Notip: Non-parametric True Discovery Proportion control for brain imaging. International Seminar on Selective Inference. [SLIDES](Slides/SelectiveInference2022.pdf)
 
 ### `r emoji::emoji("parrot")` Contributed talks
 
 [2022] Spatial clusters for demand and supply of childcare services in Italy, Incontro statistici sociali, Treviso. Italy
 
-[2022] Functional alignment enhances Electroencephalography(EEG) data’s group analysis, Associazione Italiana di Psicologia (AIP), Padova. Italy
+[2022] Functional alignment enhances Electroencephalography(EEG) data’s group analysis, Associazione Italiana di Psicologia (AIP), Padova. Italy [SLIDES](Slides/AIP2022.pdf)
 
-[2022] Valid double-dipping for fMRI cluster analysis via permutation-based selective inference, European Mathematical Psychology Group (EMPG 2022), Rovereto. Italy
+[2022] Valid double-dipping for fMRI cluster analysis via permutation-based selective inference, European Mathematical Psychology Group (EMPG 2022), Rovereto. Italy [SLIDES](Slides/EMPG2022.pdf)
 
-[2022] Valid inference for group analysis of functionally aligned MRI images, Società Italiana di Statistics (SIS) 2022, Caserta. Italy
+[2022] Valid inference for group analysis of functionally aligned MRI images, Società Italiana di Statistics (SIS) 2022, Caserta. Italy [SLIDES](Slides/SIS2022.pdf)
 
-[2022] Efficient Procrustes-based functional alignment for high-dimensional data, International Biometric Society - Italian Region, Milano. Italy
+[2022] Efficient Procrustes-based functional alignment for high-dimensional data, International Biometric Society - Italian Region, Milano. Italy [SLIDES](Slides/SIB2021.pdf)
 
-[2021] pARI package: valid double-dipping via permutation-based All Resolutions Inference, useR 2021, Milano. Italy
+[2021] pARI package: valid double-dipping via permutation-based All Resolutions Inference, useR 2021, Milano. Italy [SLIDES](Slides/user2021.pdf)
 
-[2021] Functional alignment by the “light” approach of the von Mises-Fisher-Procrustes model, Società Italiana di Statistica (SIS) 2021, Milano. Italy
+[2021] Functional alignment by the “light” approach of the von Mises-Fisher-Procrustes model, Società Italiana di Statistica (SIS) 2021, Milano. Italy [SLIDES](Slides/SIS2021.pdf)
 
-[2021] pARI package: valid double-dipping via permutation-based All Resolutions Inference, EuroBioc, Padova. Italia. 
+[2021] pARI package: valid double-dipping via permutation-based All Resolutions Inference, EuroBioc, Padova. Italia. [SLIDES/Eurobioc2021.pdf]
 
-[2020] Quot capita, tot sententiae. Don’t Forget to Use Anatomical Features into the Alignment of fMRI Data, Cognitive Science Arena, Bressanone. Italy
+[2020] Quot capita, tot sententiae. Don’t Forget to Use Anatomical Features into the Alignment of fMRI Data, Cognitive Science Arena, Bressanone. Italy [SLIDES](Slides/Bressanone2020.pdf)
 
 [2020] A Statistical approach to the alignment of fMRI data, 6th European Student Conference on Behaviour & Cognition, Padova. Italy
 
@@ -59,17 +57,18 @@ output:
 ### `r emoji::emoji("parrot")` Symposium
 
 
-[2022] Generalized Procrustes problem allows to estimate subject-specific functional connectivity in fMRI data, International Meeting of the Psychometric Society (IMPS 2022), Bologna. Italy
+[2022] Generalized Procrustes problem allows to estimate subject-specific functional connectivity in fMRI data, International Meeting of the Psychometric Society (IMPS 2022), Bologna. Italy [SLIDES](Slides/IMPS2022.pdf)
 
-[2021] Generalized Procrustes problem allows to estimate subject-specific functional connectivity in fMRI data, Associazione Italiana di Psicologia (AIP), Lecce. Italy
+[2021] Generalized Procrustes problem allows to estimate subject-specific functional connectivity in fMRI data, Associazione Italiana di Psicologia (AIP), Lecce. Italy [SLIDES](Slides/AIP2021.pdf)
 
-[2021] Predicting the Impact of COVID-19 on the Emergency Departments in Lombardy, Italy, JSM, Seattle. USA.
+[2021] Predicting the Impact of COVID-19 on the Emergency Departments in Lombardy, Italy, JSM, Seattle. USA. [SLIDES](Slides/JSM2021.pdf)
 
 ### `r emoji::emoji("parrot")` Posters
 
-[2022] Procrustes analysis for high dimensional data, Statistical methods and models for complex data, Padova. Italy
+[2022] Procrustes analysis for high dimensional data, Statistical methods and models for complex data, Padova. Italy [POSTER](Slides/800years.pdf)
 
-[2020] Improving the Functional Alignment of fMRI Data Using Special Brain Information, Organization for Human Brain Mapping (OHBM), Montreal. Canada.
+[2020] Improving the Functional Alignment of fMRI Data Using Special Brain Information, Organization for Human Brain Mapping (OHBM), Montreal. Canada. SLIDES](Slides/OHBM2020.pdf)
 
-[2020] PRDA package: Enhancing Statistical Inference via prospective and Retrospective Design Analysis, European R users meeting (eRum), Milano. Italia.
-2019. 
+[2020] PRDA package: Enhancing Statistical Inference via prospective and Retrospective Design Analysis, European R users meeting (eRum), Milano. Italia. [SLIDES](Slides/eRum2020.pdf)
+
+[2019] A statistical approach to the alignment of fMRI data, Incontro settore M/PSI-03 ,Padova. Italia  [SLIDES](Slides/IncontroSettore2020.pdf)
