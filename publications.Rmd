@@ -16,7 +16,7 @@ output:
 * Pigoni, A., Delvecchio, G., Dusi, N., Schiena, G., **Andreella, A.**, Finos, L., Cecchetto, F., Perlini, C., Rossetti, M. G., Ferro, A., Bellani, M., Lasalvia, A., Ruggeri, M., and Brambilla, P. 2022. Insula volumes in first-episode and chronic psychosis: A longitudinal MRI study. Schizophrenia Research [Link](https://www.sciencedirect.com/science/article/abs/pii/S0920996421005326?via%3Dihub)
 
 
-* Zandonella Callegher, C., Bertoldo, G., Toffalini, E., Vesely, **A., Andreella**, A., Pastore, M., e Altoè, G. 2021. PRDA: An R package for Prospective and Retrospective Design Analysis. Journal of Open Source Software, 6(58), 2810, ISSN: 2475-9066 [Link](https://joss.theoj.org/papers/10.21105/joss.02810.pdf)
+* Zandonella Callegher, C., Bertoldo, G., Toffalini, E., Vesely, **A., Andreella**, A., Pastore, M., e Altoe, G. 2021. PRDA: An R package for Prospective and Retrospective Design Analysis. Journal of Open Source Software, 6(58), 2810, ISSN: 2475-9066 [Link](https://joss.theoj.org/papers/10.21105/joss.02810.pdf)
 
 * Ciappolino, V., DelVecchio, G., Prunas, C., **Andreella, A.**, Finos, L., Caletti, E., Siri, F., Mazzocchi, A., Botturi, A., Turolo, S., Agostoni, C. e Brambilla, P. 2020. The Effect of DHA Supplementation on Cognition in Patients with Bipolar Disorder: An Exploratory Randomized Control Trial. Nutrients [Link](https://www.mdpi.com/2072-6643/12/3/708)
 
