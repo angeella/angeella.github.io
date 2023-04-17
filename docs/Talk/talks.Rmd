@@ -20,6 +20,8 @@ output:
 
 ### `r emoji::emoji("parrot")` Invited talks
 
+[2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights. GSI, Venice, Italy. 
+
 [2022] Enhanced hyperalignment via spatial prior information. Psicostat, Padova, Italy. [SLIDES](Slides/Psicostat2022.pdf)
 
 [2020] A Statistical approach to the alignment of fMRI data. Psicostat, Padova, Italy.
