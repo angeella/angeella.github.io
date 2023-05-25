@@ -7,6 +7,8 @@ output:
 
 ### `r emoji::emoji("book")` Articles in refereed journals
 
+* **Andreella, A.**, Finos, L., Weeda, W., Hemerik, J., and Goeman, J. 2022. Permutation-based true discovery proportions for fMRI cluster analysis. Statistics in Medicine, DOI: 10.1002/sim.9725 [LINK](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9725)
+
 * **Andreella, A.**, De Santis, R., Vesely, A. and Finos, L. 2022. Procrustes-based distances for exploring between-matrices similarity, Statistical Methods & Applications, DOI: 0.1007/s10260-023-00689-y [LINK](https://link.springer.com/article/10.1007/s10260-023-00689-y)
 
 * **Andreella, A.**, Finos, L., and Lindquist, M. 2022. Enhanced hyperalignment via spatial prior information. Human Brain Mapping [Link](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.26170)
@@ -43,8 +45,6 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 ### `r emoji::emoji("book")` Submitted and working papers
 
 * **Andreella, A.**, Mira, A., Balafas, S., Wit, E. C., Ruggeri, F., Nattino, G., Ghilardi, G., and Bertolini, G. 2022. A predictive model for planning emergency events rescue during COVID-19 in Lombardy, Italy. arXiv:2203.14287v1[stat.AP] [LINK](https://arxiv.org/abs/2203.14287)
-
-* Andreella, A., Finos, L., Weeda, W., Hemerik, J., and Goeman, J. 2022. Permutation-based true discovery proportions for fMRI cluster analysis. arXiv:2012.00368[stat.AP] [LINK](https://arxiv.org/abs/2012.00368)
 
 * Andreella, A., Aliverti, E., Caldura, F., and Campostrini, S. 2023. Spatial clusters for demand and supply of childcare services in Italy [working paper]
 

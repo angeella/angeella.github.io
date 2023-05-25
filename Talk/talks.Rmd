@@ -34,6 +34,8 @@ output:
 
 ### `r emoji::emoji("parrot")` Contributed talks
 
+[2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights. REVES, Padova. Italy
+
 [2022] Spatial clusters for demand and supply of childcare services in Italy, Incontro statistici sociali, Treviso. Italy
 
 [2022] Functional alignment enhances Electroencephalography(EEG) data’s group analysis, Associazione Italiana di Psicologia (AIP), Padova. Italy [SLIDES](Slides/AIP2022.pdf)

@@ -14,7 +14,7 @@ output:
 
 [2022]  Graph Theoretic Foundation of Networks in R. Summer School in Network Econometrics, VERA, SIdE-IEA, Venezia, Italy [MATERIALS](https://github.com/angeella/Summer_School_2022_VERA)
 
-[2019]  How to improve the functional alignment of fMRI data using spatial brain information?. High dimensional reading club, LUMC, Department of Biomedical Data Sciences, Leiden, Netherland. [SLIDES](Slides/LUMC.pdf)
+[2019]  How to improve the functional alignment of fMRI data using spatial brain information?. High dimensional reading club, LUMC, Department of Biomedical Data Sciences, Leiden, Netherlands. [SLIDES](Slides/LUMC.pdf)
 
 [2019] A Statistical approach to the alignment of fMRI data. Dartmouth College, Department of Psychological and Brain Sciences, Hanover, NH, USA.
 
@@ -33,6 +33,8 @@ output:
 [2022] Notip: Non-parametric True Discovery Proportion control for brain imaging. International Seminar on Selective Inference. [SLIDES](Slides/SelectiveInference2022.pdf)
 
 ### `r emoji::emoji("parrot")` Contributed talks
+
+[2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights. REVES, Padova. Italy
 
 [2022] Spatial clusters for demand and supply of childcare services in Italy, Incontro statistici sociali, Treviso. Italy
 
