@@ -10,6 +10,8 @@ output:
 
 ### `r emoji::emoji("parrot")` Invited seminars
 
+[2023] The Labyrinth of Multiple Testing: how to avoid the pitfall of false positives. 12th SISMEC National Congress, Jesi, Italy.
+
 [2022] Moving beyond linearity. Summer School in Social Statistics, Anacapri, Italy
 
 [2022]  Graph Theoretic Foundation of Networks in R. Summer School in Network Econometrics, VERA, SIdE-IEA, Venezia, Italy [MATERIALS](https://github.com/angeella/Summer_School_2022_VERA)
@@ -19,6 +21,8 @@ output:
 [2019] A Statistical approach to the alignment of fMRI data. Dartmouth College, Department of Psychological and Brain Sciences, Hanover, NH, USA.
 
 ### `r emoji::emoji("parrot")` Invited talks
+
+[2023] A novel definition of Italian comorbidity, PRIN SELECT, Venice, Italy.
 
 [2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights. GSI, Venice, Italy. 
 
@@ -33,6 +37,14 @@ output:
 [2022] Notip: Non-parametric True Discovery Proportion control for brain imaging. International Seminar on Selective Inference. [SLIDES](Slides/SelectiveInference2022.pdf)
 
 ### `r emoji::emoji("parrot")` Contributed talks
+
+[2023] Toward a power analysis and sample size estimation for
+PLS-based methods,  International Society for Clinical Biostatistics (ISCB), Milan, Italy.
+
+[2023] Spatial clusters for demand and supply of childcare services in Italy, 5th International Conference on Advanced Research Methods and Analytics (CARMA), Sevilla. Spain.
+
+[2023] A novel definition of Italian comorbidity based on PASSI and GBD
+disability weights, Italian Statistics Society (SIS), Ancona, Italy.
 
 [2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights. REVES, Padova. Italy
 

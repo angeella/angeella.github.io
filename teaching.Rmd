@@ -7,11 +7,17 @@ output:
 
 ### `r emoji::emoji("teapot")` Teaching
 
+* [ay 2023-2024] Health Data Science, Master Degree in Data Analytics for Business and Society, University of Venice. [30 hours]
+
+* [ay 2023-2024] Laboratory for the Statistic course, Bachelor Degree in Economics, University of Venice [30 hours] *lecturer*
+
 * [ay 2022-2023] Statistic, PhD in Neuroscience, University of Padova [6 hours] [MATERIALS](https://github.com/angeella/PNC) 
 
 * [ay 2022-2023] Health Data Science, Master Degree in Data Analytics for Business and Society, University of Venice. [30 hours]
 
 * [ay 2022-2023] Laboratory for the Statistic course, Bachelor Degree in Economics, University of Venice [30 hours] *lecturer*
+
+* [ay  2022-2023] Laboratory for the Psychometrics course, Bachelor of Science in Psychological Science and Techniques, University of Padova [30 hours] *lecturer*
 
 * [ay 2021-2022] Statistic, Bachelor Degree in Economics, University of Venice [30 hours]
 
@@ -27,6 +33,8 @@ output:
 
 ### `r emoji::emoji("teapot")` Educational lectures
 
+
+* [ay 2022-2023] Permutation-based cluster inference in Electroencephalography (EEG) data, Lecture didactic within the teaching "Psychometrics for Cognitive Neuroscience," Master degree in Statistic, University of Padova, Italy.
 
 * [ay 2021-2022] Permutation-based cluster inference in Electroencephalography (EEG) data, Lecture didactic within the teaching "Psychometrics for Cognitive Neuroscience," Master degree in Statistic, University of Padova, Italy.
 

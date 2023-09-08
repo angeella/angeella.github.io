@@ -7,6 +7,8 @@ output:
 
 ### `r emoji::emoji("book")` Articles in refereed journals
 
+* **Andreella, A.**, Mira, A., Balafas, S., Wit, E. C., Ruggeri, F., Nattino, G., Ghilardi, G., and Bertolini, G. 2023. A predictive model for planning emergency events rescue during COVID-19 in Lombardy, Italy. Statistical Methods & Applications, (in press)
+
 * **Andreella, A.**, Finos, L., Weeda, W., Hemerik, J., and Goeman, J. 2022. Permutation-based true discovery proportions for fMRI cluster analysis. Statistics in Medicine, DOI: 10.1002/sim.9725 [LINK](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9725)
 
 * **Andreella, A.**, De Santis, R., Vesely, A. and Finos, L. 2022. Procrustes-based distances for exploring between-matrices similarity, Statistical Methods & Applications, DOI: 0.1007/s10260-023-00689-y [LINK](https://link.springer.com/article/10.1007/s10260-023-00689-y)
@@ -31,7 +33,11 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 ### `r emoji::emoji("book")` Refereed conference proceedings
 
-*  **Andreella, A.**, De Santis, R. e Finos, L. 2022. Valid inference for group analysis of functionally aligned fMRI images. Book of Short Papers SIS 2022, 1987--1992, ISBN: 9788891932310
+* **Andreella, A.**, Monasta, L., Campostrini, S. 2023. A novel definition of comorbidity based on the Global Burden of Diseases project weights. Book of the Short Papers SIS 2023, 566--571, ISBN 9788891935618
+
+* Vesely, A., and **Andreella, A.**. 2023. How active is a genetic pathway? Comparative analysis of post-hoc permutation-based methods. Book of the Short Papers SIS 2023, 1268--1273, ISBN 9788891935618
+
+*  **Andreella, A.**, De Santis, R. and Finos, L. 2022. Valid inference for group analysis of functionally aligned fMRI images. Book of Short Papers SIS 2022, 1987--1992, ISBN: 9788891932310
 
 * Vesely, A.,  **Andreella, A.**, Goeman, J., Finos, L. 2022. Resampling-Based Inference for High-Dimensional Regression. Book of Short Papers SIS 2022, 1327--1332, ISBN: 9788891932310
 
@@ -44,11 +50,9 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 ### `r emoji::emoji("book")` Submitted and working papers
 
-* **Andreella, A.**, Mira, A., Balafas, S., Wit, E. C., Ruggeri, F., Nattino, G., Ghilardi, G., and Bertolini, G. 2022. A predictive model for planning emergency events rescue during COVID-19 in Lombardy, Italy. arXiv:2203.14287v1[stat.AP] [LINK](https://arxiv.org/abs/2203.14287)
 
-* Andreella, A., Aliverti, E., Caldura, F., and Campostrini, S. 2023. Spatial clusters for demand and supply of childcare services in Italy [working paper]
+* Andreella, A., Aliverti, E., Caldura, F., and Campostrini, S. 2023. Spatial clusters for demand and supply of childcare services in Italy [submitted]
 
-* Andreella, A., Monasta, L., and Campostrini, S. 2023. A novel definition of Italian comorbidity based on diseases detected by the surveillance system PASSI and the Global Burden of Diseases
-disability weights [working paper]
+* Andreella, A., Monasta, L., and Campostrini, S. 2023. A novel definition of Italian comorbidity based on diseases detected by the surveillance system PASSI and the Global Burden of Diseases disability weights [submitted]
 
 * Towards a power analysis and sample size estimation for PLS-based methods [working paper]
