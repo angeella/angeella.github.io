@@ -50,9 +50,12 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 ### `r emoji::emoji("book")` Submitted and working papers
 
+* **Andreella, A.**, Vesely, A., Hemerik, J, Wouter, W., and Goeman, J. 2023. Selective inference for fMRI cluster-wise analysis, issues, and recommendations for template selection: A comment on Blain et al [submitted]
 
 * Andreella, A., Aliverti, E., Caldura, F., and Campostrini, S. 2023. Spatial clusters for demand and supply of childcare services in Italy [submitted]
 
 * Andreella, A., Monasta, L., and Campostrini, S. 2023. A novel definition of Italian comorbidity based on diseases detected by the surveillance system PASSI and the Global Burden of Diseases disability weights [submitted]
 
 * Towards a power analysis and sample size estimation for PLS-based methods [working paper]
+
+* Robust Inference for Multivariate Generalized Linear Mixed Models: An Approach Based on Score Sign Flipping [working paper]
