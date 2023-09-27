@@ -33,6 +33,10 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 ### `r emoji::emoji("book")` Refereed conference proceedings
 
+* **Andreella, A.**, Campostrini, S. 2023. Suitable statistical approaches for novel policies: spatial clusters of childcare’s services in Veneto, Italy. Proceedings of the 5th International Conference on Advanced Research Methods and Analytics (CARMA 2023), 205--212, ISBN: 9788413960869 
+
+
+
 * **Andreella, A.**, Monasta, L., Campostrini, S. 2023. A novel definition of comorbidity based on the Global Burden of Diseases project weights. Book of the Short Papers SIS 2023, 566--571, ISBN 9788891935618
 
 * Vesely, A., and **Andreella, A.**. 2023. How active is a genetic pathway? Comparative analysis of post-hoc permutation-based methods. Book of the Short Papers SIS 2023, 1268--1273, ISBN 9788891935618
