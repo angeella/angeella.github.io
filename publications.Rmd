@@ -7,7 +7,7 @@ output:
 
 ### `r emoji::emoji("book")` Articles in refereed journals
 
-* **Andreella, A.**, Mira, A., Balafas, S., Wit, E. C., Ruggeri, F., Nattino, G., Ghilardi, G., and Bertolini, G. 2023. A predictive model for planning emergency events rescue during COVID-19 in Lombardy, Italy. Statistical Methods & Applications, (in press)
+* **Andreella, A.**, Mira, A., Balafas, S., Wit, E. C., Ruggeri, F., Nattino, G., Ghilardi, G., and Bertolini, G. 2023. A predictive model for planning emergency events rescue during COVID-19 in Lombardy, Italy. Statistical Methods & Applications, DOI: 10.1007/s10260-023-00725-x
 
 * **Andreella, A.**, Finos, L., Weeda, W., Hemerik, J., and Goeman, J. 2022. Permutation-based true discovery proportions for fMRI cluster analysis. Statistics in Medicine, DOI: 10.1002/sim.9725 [LINK](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9725)
 
