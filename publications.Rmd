@@ -7,6 +7,8 @@ output:
 
 ### `r emoji::emoji("book")` Articles in refereed journals
 
+* **Andreella, A.**, Monasta, L., and Campostrini, S. 2023. A novel definition of Italian comorbidity based on diseases detected by the surveillance system PASSI and the Global Burden of Diseases disability weights. Population Health Metrics, DOI: 10.1186/s12963-023-00317-7
+
 * **Andreella, A.**, Mira, A., Balafas, S., Wit, E. C., Ruggeri, F., Nattino, G., Ghilardi, G., and Bertolini, G. 2023. A predictive model for planning emergency events rescue during COVID-19 in Lombardy, Italy. Statistical Methods & Applications, DOI: 10.1007/s10260-023-00725-x
 
 * **Andreella, A.**, Finos, L., Weeda, W., Hemerik, J., and Goeman, J. 2022. Permutation-based true discovery proportions for fMRI cluster analysis. Statistics in Medicine, DOI: 10.1002/sim.9725 [LINK](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9725)
@@ -35,8 +37,6 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 * **Andreella, A.**, Campostrini, S. 2023. Suitable statistical approaches for novel policies: spatial clusters of childcare’s services in Veneto, Italy. Proceedings of the 5th International Conference on Advanced Research Methods and Analytics (CARMA 2023), 205--212, ISBN: 9788413960869 
 
-
-
 * **Andreella, A.**, Monasta, L., Campostrini, S. 2023. A novel definition of comorbidity based on the Global Burden of Diseases project weights. Book of the Short Papers SIS 2023, 566--571, ISBN 9788891935618
 
 * Vesely, A., and **Andreella, A.**. 2023. How active is a genetic pathway? Comparative analysis of post-hoc permutation-based methods. Book of the Short Papers SIS 2023, 1268--1273, ISBN 9788891935618
@@ -58,8 +58,8 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 * Andreella, A., Aliverti, E., Caldura, F., and Campostrini, S. 2023. Spatial clusters for demand and supply of childcare services in Italy [submitted]
 
-* Andreella, A., Monasta, L., and Campostrini, S. 2023. A novel definition of Italian comorbidity based on diseases detected by the surveillance system PASSI and the Global Burden of Diseases disability weights [submitted]
-
 * Towards a power analysis and sample size estimation for PLS-based methods [working paper]
 
 * Robust Inference for Multivariate Generalized Linear Mixed Models: An Approach Based on Score Sign Flipping [working paper]
+
+* Exploring Inclusivity in Early Childhood Education Services in Italy [working paper] 

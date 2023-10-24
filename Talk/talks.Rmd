@@ -38,13 +38,14 @@ output:
 
 ### `r emoji::emoji("parrot")` Contributed talks
 
+[2023] Exploring Inclusivity in Early Childhood Education Services in Italy, Incontro statistici sociali, Treviso. Italy
+
 [2023] Toward a power analysis and sample size estimation for
 PLS-based methods,  International Society for Clinical Biostatistics (ISCB), Milan, Italy.
 
 [2023] Spatial clusters for demand and supply of childcare services in Italy, 5th International Conference on Advanced Research Methods and Analytics (CARMA), Sevilla. Spain.
 
-[2023] A novel definition of Italian comorbidity based on PASSI and GBD
-disability weights, Italian Statistics Society (SIS), Ancona, Italy.
+[2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights, Italian Statistics Society (SIS), Ancona, Italy.
 
 [2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights. REVES, Padova. Italy
 
@@ -80,6 +81,10 @@ disability weights, Italian Statistics Society (SIS), Ancona, Italy.
 [2021] Predicting the Impact of COVID-19 on the Emergency Departments in Lombardy, Italy, JSM, Seattle. USA. [SLIDES](Slides/JSM2021.pdf)
 
 ### `r emoji::emoji("parrot")` Posters
+
+[2023] Exploring Inclusivity in Early Childhood Education Services in Italy, Incontro statistici sociali, Treviso. Italy
+
+[2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights, Italian Statistics Society (SIS), Ancona, Italy.
 
 [2022] Procrustes analysis for high dimensional data, Statistical methods and models for complex data, Padova. Italy [POSTER](Slides/800years.pdf)
 
