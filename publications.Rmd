@@ -56,13 +56,17 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 * **Andreella, A.**, Vesely, A., Wouter, W., and Goeman, J. 2023. Selective inference for fMRI cluster-wise analysis, issues, and recommendations for template selection: A comment on Blain et al [submitted](https://arxiv.org/abs/2307.02115)
 
-* Andreella, A., Aliverti, E., Caldura, F., and Campostrini, S. 2023. Spatial clusters for demand and supply of childcare services in Italy [submitted](https://arxiv.org/abs/2401.07600)
+* **Andreella, A.**, Aliverti, E., Caldura, F., and Campostrini, S. 2023. Spatial clusters for demand and supply of childcare services in Italy [submitted](https://arxiv.org/abs/2401.07600)
 
-* Towards a power analysis and sample size estimation for PLS-based methods [working paper]
+* **Andreella, A.**, Finos, L., Scarpa, B., and Stocchero, M. 2023. Toward a power analysis and sample size estimation for
+PLS-based methods [submitted](https://arxiv.org/abs/2403.10289)
 
-* Robust Inference for Multivariate Generalized Linear Mixed Models: An Approach Based on Score Sign Flipping [submitted](https://arxiv.org/abs/2401.17993)
+* **Andreella, A.**, Hemerik, J, Goeman, J., Finos, L., Robust Inference for Multivariate Generalized Linear Mixed Models: An Approach Based on Score Sign Flipping [submitted](https://arxiv.org/abs/2401.17993)
 
-* Exploring Inclusivity in Early Childhood Education Services in Italy [working paper] 
+* **Andreella, A.**, Campostrini, S., Caldura, F., Bertarelli, G. 2023. A two-step model to analyze the inclusivity’s distribution of Italian childcare services [working paper]
 
-* Analyzing Compression of Comorbidity in Italy: A Mixture Model with Regional Random Effects [working paper]
+* **Andreella, A.**, Campostrini, S. 2024. Analyzing Compression of Comorbidity in Italy: A Mixture Model with Regional Random Effects [working paper]
 
+* Xu, N., Solari, A., Vesely, A., **Andreella, A.**, Goeman, J. 2024. Shortcuts for permutation-based closed testing [working paper]
+
+* **Andreella, A.**, Campostrini, S. 2024. Work Realities and Behavioral Risk Factors in Italy [working paper]

@@ -32,5 +32,5 @@ One Ph.D. thesis project was about a spatial regularization of the Procrustes-ba
 
 Another project of the Ph.D. thesis was about a permutation-based approach to the All Resolution Inference method under the supervision of Professor Jelle Goeman from the Department of Biomedical Data Sciences and Professor Wouter Weeda from the Department of Psychology at Leiden University. The method fixes the spatial specificity paradox, computing post-hoc lower bounds for the number of true active voxels within a cluster. 
 
-My cv is downloadable [here](cv_eng.pdf) for the English version and [here](cv_ita.pdf) for the Italian one.
+My cv is downloadable [here](cv_eng.pdf).
 
