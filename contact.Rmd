@@ -11,7 +11,7 @@ output:
 
 `r emoji::emoji("calling")` 041 234 9141
 
-`r emoji::emoji("office")`  Office C2.107, Department of Economics, University of Venice, San Giobbe, Cannaregio 873, 30121 Venezia
+`r emoji::emoji("office")`  Office C2.107, Department of Economics, University of Venice, San Giobbe, Cannaregio 873, 30121 Venezia, Italy
 
 
 
