@@ -38,6 +38,12 @@ output:
 
 ### `r emoji::emoji("parrot")` Contributed talks
 
+[2024] Analyzing Comorbidity Compression in Italy: A Mixture Model with Regional Random Effects, Italian Statistics Society (SIS), Bari, Italy.
+
+[2024] Work Realities and Behavioral risk factors in Italy, 6th International Conference on Advanced Research Methods and Analytics (CARMA), Valencia. Spain.
+
+[2024] Analyzing Comorbidity Compression in Italy: A Mixture Model with Regional Random Effects, Meeting Age-It, Venice, Italy.
+
 [2023] Exploring Inclusivity in Early Childhood Education Services in Italy, Incontro statistici sociali, Treviso. Italy
 
 [2023] Toward a power analysis and sample size estimation for
