@@ -16,21 +16,19 @@ output:
 
 My main interest is applied statistics, i.e., connecting statistics with different fields, such as social sciences, health sciences (aging and fragility in particular), psychology, neuroscience, and medicine, improving both areas. My challenge is analyzing these data and related problems with proper and novel statistical approaches. For that, I am a member of the [Psicostat](http://ip146179.psy.unipd.it/psicostat/web/) group at the University of Padova, [LoLa](https://lola.projects.unibz.it/?page_id=367&lang=it) group, and a [GBD (Italian division)](https://www.italian-gbd-initiative.it/) collaborator. I am a Research Fellow within the [Age-it](https://ageit.eu/wp/) and [Planet4Health](https://planet4health.eu/) projects.
 
-My statistical interests are in methods that permit understanding and managing high-dimensional data, i.e., dimension reduction techniques, statistical shape analysis, permutation tests, multiple testing, and selective inference.
+My research interests lie in statistical methods for understanding and managing high-dimensional data, including dimension reduction techniques, statistical shape analysis, permutation tests, multiple testing, and selective inference.
 
 #### `r emoji::emoji("bird")` Something about me
 
-I am an assistant professor (RTD-A) in social statistics (SSD: SECS-05) at the Department of Economics of the University Ca’ Foscari Venezia. I am working on various projects related to Italian social welfare and health data analysis.
+I am an Assistant Professor (RTT) in Statistics (SSD: STAT-01/A) at the Department of Economics and Management, University of Trento.
 
-I previously did a Post-doc at the Department of Statistical Sciences of the University of Padova under the supervision of Professor Bruno Scarpa and Livio Finos. Here, we worked on sample size estimation for PLS classification in the power analysis context.
+Previously, I was an Assistant Professor (RTD-A) in Social Statistics (SSD: SECS-S/05) at the Department of Economics, Ca’ Foscari University of Venice, where I worked—and continue to work—on various projects related to the analysis of Italian social welfare and health data.
 
-I also did a Post-Doc at the Department of Science and Technology of the University of Insubria with the supervision of Professor Antonietta Mira. The project was focused on modeling the data from emergency call centers across the Lombardy region in Italy.
+Before that, I completed a postdoctoral fellowship at the Department of Statistical Sciences, University of Padova, under the supervision of Professors Bruno Scarpa and Livio Finos. Our work focused on sample size estimation for Partial Least Squares (PLS) classification in the context of power analysis.
 
-I finished my Ph.D. in Statistical Sciences under the supervision of Professor Livio Finos about statistical methods to analyze neuroscience data, e.g., fMRI data.
+I also held a postdoctoral position at the Department of Science and Technology, University of Insubria, under the supervision of Professor Antonietta Mira. This project involved modeling data from emergency call centers across the Lombardy region, Italy.
 
-One Ph.D. thesis project involved spatial regularization of the Procrustes-based method used in the functional alignment of brain data, i.e., the ProMises (Procrustes von Mises-Fisher) model, with the collaboration of Professor James Haxby from the Department of Psychological and Brain Sciences at Dartmouth College and the Haxby Lab.
-
-Another project of the Ph.D. thesis was about a permutation-based approach to the All Resolution Inference method under the supervision of Professor Jelle Goeman from the Department of Biomedical Data Sciences and Professor Wouter Weeda from the Department of Psychology at Leiden University. The method fixes the spatial specificity paradox, computing post-hoc lower bounds for the number of true active voxels within a cluster. 
+I earned my Ph.D. in Statistical Sciences at the University of Padova under the supervision of Professor Livio Finos, where I focused on statistical methods for analyzing neuroscience data, particularly functional MRI (fMRI) data.
 
 My cv is downloadable [here](cv_eng.pdf).
 

@@ -80,3 +80,5 @@ PLS-based methods [major revision Biometrical Journal](https://arxiv.org/abs/240
 * **Andreella, A.**, Campostrini, S. 2024. Work Realities and Behavioral Risk Factors in Italy [working paper]
 
 * Ferraccioli, F., Finos, L., **Andreella, A.** 2024. A nonparametric test for fixed effects in crossed random effect models [working paper]
+
+* Stival, M., **Andreella, A.**, Schiavon, L. 2024.  Combining Bayesian Latent Traits and Topic Models for Identifying Risky Behavioral Profiles in the Italian Population [working paper]
