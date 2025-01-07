@@ -7,11 +7,11 @@ output:
 
 ### Contact
 
-`r emoji::emoji("email")`  angela.andreella@unive.it
+`r emoji::emoji("email")`  angela.andreella@unitn.it
 
-`r emoji::emoji("calling")` 041 234 9141
+`r emoji::emoji("calling")` 0461 282279
 
-`r emoji::emoji("office")`  Office C2.107, Department of Economics, University of Venice, San Giobbe, Cannaregio 873, 30121 Venezia, Italy
+`r emoji::emoji("office")`  Second Floor, Department of Economics and Management, University of Trento,  Via Vigilio Inama, 5, Trento
 
 
 

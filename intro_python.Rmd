@@ -11,7 +11,6 @@ See <https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil> for a full de
 
 Import packages
 
-
 ```{python}
 import pandas as pd #Handle datasets
 import seaborn as sns #Plots
