@@ -7,9 +7,11 @@ output:
 
 ### `r emoji::emoji("book")` Articles in refereed journals
 
+* **Andreella, A.**, Finos, L., Scarpa, B. and Stocchero, M. (2025), Toward Power Analysis for Partial Least Squares-Based Methods. Biometrical Journal., 67: e70050. https://doi.org/10.1002/bimj.70050
+
 * Kovacs, N., Mahrouseh, N., Monasta, L., **Andreella, A.**, Campostrini, S., and Varga, O. (2025). The diabetes mellitus comorbidity index in European Union member states based on the 2019 European Health Interview Survey. Scientific Reports, 15(1), 512. 
 
-* **Andreella, A.**, Goeman, J., Hemerik, J., and Finos, L. (2024). Robust inference for generalized linear mixed models: a two-stage summary statistics approach based on score sign flipping. Psychometrika, 1.
+* **Andreella, A.**, Goeman, J., Hemerik, J., and Finos, L. (2025). Robust inference for generalized linear mixed models: a two-stage summary statistics approach based on score sign flipping. Psychometrika, 1-42.
 
 * **Andreella, A.**, Aliverti, E., Caldura, F., and Campostrini, S. 2024. Spatial clusters for demand and supply of early childhood education and care services in Italy. Socio-Economic Planning Sciences, 95, DOI: 10.1016/j.seps.2024.102034
 
@@ -49,7 +51,7 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 * Ferraccioli, F., Finos, L., **Andreella, A.**. 2024. A nonparametric test for fixed effects in crossed random effect models  Book of the Short Papers SIS 2024, ISBN 9783031643453
 
-* **Andreella, A.**, Campostrini, S. 2024. Work realities and behavioural risk factors in Italy. Proceedings of the 6th International Conference on Advanced Research Methods and Analytics (CARMA 2024), 390--398, DOI: 10.4995/CARMA2024.2024.19017 
+* **Andreella, A.**, Campostrini, S. 2024. Work realities and behavioral risk factors in Italy. Proceedings of the 6th International Conference on Advanced Research Methods and Analytics (CARMA 2024), 390--398, DOI: 10.4995/CARMA2024.2024.19017 
 
 * **Andreella, A.**, Campostrini, S. 2023. Suitable statistical approaches for novel policies: spatial clusters of childcare’s services in Veneto, Italy. Proceedings of the 5th International Conference on Advanced Research Methods and Analytics (CARMA 2023), 205--212, ISBN: 9788413960869 
 
@@ -70,10 +72,6 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 ### `r emoji::emoji("book")` Submitted and working papers
 
-* **Andreella, A.**, Finos, L., Scarpa, B., and Stocchero, M. 2023. Toward a power analysis and sample size estimation for
-PLS-based methods [major revision Biometrical Journal](https://arxiv.org/abs/2403.10289)
-
-
 * **Andreella, A.**, Campostrini, S., Caldura, F., Bertarelli, G. 2024. A two-step model to analyze the inclusivity’s distribution of Italian childcare services [major revision JRSSA](https://arxiv.org/html/2407.15610v1)
 
 * **Andreella, A.**, Monasta, L., Campostrini, S. 2024. Analyze Multimorbidity Compression in Italy as a Latent Trait into a Mixed Mixture Model [submitted]
@@ -85,3 +83,5 @@ PLS-based methods [major revision Biometrical Journal](https://arxiv.org/abs/240
 * Ferraccioli, F., Finos, L., **Andreella, A.** 2024. A nonparametric test for fixed effects in crossed random effect models [working paper]
 
 * **Andreella, A.**, Finos, L., 2025 Blockwise Resampling for Fixed Effects Inference in Multivariate Linear Mixed Models [working paper]
+
+

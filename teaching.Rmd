@@ -7,6 +7,10 @@ output:
 
 ### `r emoji::emoji("teapot")` Teaching
 
+* [ay 2024-2025] Statistic, Bachelor Degree in Economics, University of Trento [48 hours] 
+
+* [ay 2024-2025] Statistic for quality control, Bachelor Degree in Economics, University of Trento [48 hours] 
+
 * [ay 2023-2024] Statistic, PhD in Public Administration, Ca' Foscari University of Venice [8 hours] 
 
 * [ay 2023-2024] Health Data Science, Master Degree in Data Analytics for Business and Society, University of Venice. [30 hours]

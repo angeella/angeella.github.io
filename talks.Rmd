@@ -10,11 +10,19 @@ output:
 
 ### `r emoji::emoji("parrot")` Invited seminars
 
+[2025] Statistical Analysis using R. The [Arca](https://arcasummerschool.dpss.psy.unipd.it/arcasummerschool/index.php/program/) Initiative: Unlocking Psychological Expertise for Academic and Business Success, Padova, Italy
+
+[2025] Advances in statistical inference for longitudinal generalized linear models. [BEYOND classical p-values]()https://beyond.dipsco.unitn.it/home-page, Rovereto, Italy.
+
+[2024] Graph Theoretic Foundation of Networks in R. [Summer School in Network Econometrics](https://www.side-iea.it/events/courses/network-econometrics-2024), VERA, SIdE-IEA, Venezia, Italy. [MATERIALS](https://github.com/angeella/Summer_School_VERA)
+
 [2023] The Labyrinth of Multiple Testing: how to avoid the pitfall of false positives. 12th SISMEC National Congress, Jesi, Italy.
+
+[2023] Graph Theoretic Foundation of Networks in R. [Summer School in Network Econometrics](https://www.side-iea.it/events/courses/network-econometrics-2023), VERA, SIdE-IEA, Venezia, Italy. [MATERIALS](https://github.com/angeella/Summer_School_VERA)
 
 [2022] Moving beyond linearity. Summer School in Social Statistics, Anacapri, Italy
 
-[2022]  Graph Theoretic Foundation of Networks in R. Summer School in Network Econometrics, VERA, SIdE-IEA, Venezia, Italy [MATERIALS](https://github.com/angeella/Summer_School_2022_VERA)
+[2022]  Graph Theoretic Foundation of Networks in R. [Summer School in Network Econometrics](https://www.side-iea.it/events/courses/network-econometrics-2022), VERA, SIdE-IEA, Venezia, Italy [MATERIALS](https://github.com/angeella/Summer_School_VERA)
 
 [2019]  How to improve the functional alignment of fMRI data using spatial brain information?. High dimensional reading club, LUMC, Department of Biomedical Data Sciences, Leiden, Netherlands. [SLIDES](Slides/LUMC.pdf)
 
@@ -22,11 +30,26 @@ output:
 
 ### `r emoji::emoji("parrot")` Invited talks
 
+[2025] Integrate data surveillance system and GBD estimates to analyze comorbidity: the Italian case study. XLIX congresso AIE, Salerno, Italy.
+
+[2024] Analyzing Comorbidity Compression in Italy: A Mixture Model with Regional Random Effects. Quattro Passi per Ca’ Fos-
+cari, Venice, Italy
+
+[2024] Work Realities and Behavioral Risk Factors in Italy. Quattro Passi per Ca’ Foscari, Venice, Italy
+
 [2023] A novel definition of Italian comorbidity, PRIN SELECT, Venice, Italy.
 
 [2023] A novel definition of Italian comorbidity based on PASSI and GBD disability weights. GSI, Venice, Italy. 
 
 [2022] Enhanced hyperalignment via spatial prior information. Psicostat, Padova, Italy. [SLIDES](Slides/Psicostat2022.pdf)
+
+[2022] Generalized Procrustes problem allows to estimate subject-specific functional connectivity in fMRI data, International
+Meeting of the Psychometric Society (IMPS), Bologna, Italy. (symposia) [SLIDES](Slides/AIP2021.pdf)
+
+[2021] Generalized Procrustes problem allows to estimate subject-specific functional connectivity in fMRI data, Italian Psychology Association (AIP), Lecce, Italy. (symposia) [SLIDES](Slides/IMPS2022.pdf)
+
+[2021] Predicting the Impact of COVID-19 on the Emergency Departments in Lombardy, Italy, Joint Statistical Meetings (JSM),
+Seattle. USA. (symposia) [SLIDES](Slides/JSM2021.pdf)
 
 [2020] A Statistical approach to the alignment of fMRI data. Psicostat, Padova, Italy.
 
@@ -37,6 +60,8 @@ output:
 [2022] Notip: Non-parametric True Discovery Proportion control for brain imaging. International Seminar on Selective Inference. [SLIDES](Slides/SelectiveInference2022.pdf)
 
 ### `r emoji::emoji("parrot")` Contributed talks
+
+[2025] Joining Bayesian models to identify groups of occupations with different risk behaviors in Italy. Popdays, Cagliari, Italy.
 
 [2024] Analyzing Comorbidity Compression in Italy: A Mixture Model with Regional Random Effects, Italian Statistics Society (SIS), Bari, Italy.
 
@@ -76,15 +101,6 @@ PLS-based methods,  International Society for Clinical Biostatistics (ISCB), Mil
 [2020] A Statistical approach to the alignment of fMRI data, 6th European Student Conference on Behaviour & Cognition, Padova. Italy
 
 [2019] A Statistical approach to the alignment of fMRI data, 12th IBS - Italian Region conference, Napoli. Italy
-
-### `r emoji::emoji("parrot")` Symposium
-
-
-[2022] Generalized Procrustes problem allows to estimate subject-specific functional connectivity in fMRI data, International Meeting of the Psychometric Society (IMPS 2022), Bologna. Italy [SLIDES](Slides/IMPS2022.pdf)
-
-[2021] Generalized Procrustes problem allows to estimate subject-specific functional connectivity in fMRI data, Associazione Italiana di Psicologia (AIP), Lecce. Italy [SLIDES](Slides/AIP2021.pdf)
-
-[2021] Predicting the Impact of COVID-19 on the Emergency Departments in Lombardy, Italy, JSM, Seattle. USA. [SLIDES](Slides/JSM2021.pdf)
 
 ### `r emoji::emoji("parrot")` Posters
 
