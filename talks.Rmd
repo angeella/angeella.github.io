@@ -12,7 +12,7 @@ output:
 
 [2025] Statistical Analysis using R. The [Arca](https://arcasummerschool.dpss.psy.unipd.it/arcasummerschool/index.php/program/) Initiative: Unlocking Psychological Expertise for Academic and Business Success, Padova, Italy
 
-[2025] Advances in statistical inference for longitudinal generalized linear models. [BEYOND classical p-values]()https://beyond.dipsco.unitn.it/home-page, Rovereto, Italy.[MATERIALS](https://github.com/angeella/Summer_School_Beyond)
+[2025] Advances in statistical inference for longitudinal generalized linear models. [BEYOND classical p-values](https://beyond.dipsco.unitn.it/home-page), Rovereto, Italy.[MATERIALS](https://github.com/angeella/Summer_School_Beyond)
 
 [2024] Graph Theoretic Foundation of Networks in R. [Summer School in Network Econometrics](https://www.side-iea.it/events/courses/network-econometrics-2024), VERA, SIdE-IEA, Venezia, Italy. [MATERIALS](https://github.com/angeella/Summer_School_VERA)
 
