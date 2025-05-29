@@ -65,7 +65,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -515,14 +515,18 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a h
 <span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a>dt.columns <span class="op">=</span> dt.columns.<span class="bu">str</span>.replace(<span class="st">&#39; &#39;</span>, <span class="st">&#39;&#39;</span>)</span>
 <span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a>dt.columns <span class="op">=</span> dt.columns.<span class="bu">str</span>.replace(<span class="st">&#39;2019&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
 <span id="cb12-4"><a href="#cb12-4" tabindex="-1"></a>dt.columns <span class="op">=</span> dt.columns.<span class="bu">str</span>.replace(<span class="st">&#39;%&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
-<span id="cb12-5"><a href="#cb12-5" tabindex="-1"></a>dt.columns <span class="op">=</span> dt.columns.<span class="bu">str</span>.replace(<span class="st">&#39;(&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
-<span id="cb12-6"><a href="#cb12-6" tabindex="-1"></a>dt.columns <span class="op">=</span> dt.columns.<span class="bu">str</span>.replace(<span class="st">&#39;)&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
-<span id="cb12-7"><a href="#cb12-7" tabindex="-1"></a>dt <span class="op">=</span> dt.dropna(axis <span class="op">=</span> <span class="dv">0</span>,how<span class="op">=</span><span class="st">&#39;any&#39;</span>)</span></code></pre></div>
+<span id="cb12-5"><a href="#cb12-5" tabindex="-1"></a>dt.columns <span class="op">=</span> dt.columns.<span class="bu">str</span>.replace(<span class="st">&#39;(&#39;</span>, <span class="st">&#39;&#39;</span>)</span></code></pre></div>
+<pre><code>## &lt;string&gt;:1: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.</code></pre>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a>dt.columns <span class="op">=</span> dt.columns.<span class="bu">str</span>.replace(<span class="st">&#39;)&#39;</span>, <span class="st">&#39;&#39;</span>)</span></code></pre></div>
+<pre><code>## &lt;string&gt;:1: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.</code></pre>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a>dt <span class="op">=</span> dt.dropna(axis <span class="op">=</span> <span class="dv">0</span>,how<span class="op">=</span><span class="st">&#39;any&#39;</span>)</span></code></pre></div>
 <p>Basic info</p>
-<div class="sourceCode" id="cb13"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a>dt.info()</span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a>dt.info()</span></code></pre></div>
 <pre><code>## &lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
-## Index: 173 entries, 0 to 185
+## Int64Index: 173 entries, 0 to 185
 ## Data columns (total 34 columns):
 ##  #   Column                 Non-Null Count  Dtype  
 ## ---  ------                 --------------  -----  
@@ -565,45 +569,45 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a h
 <div id="some-plots" class="section level2">
 <h2><span style="color:blue"> Some plots </span></h2>
 <p>Boxplot by group, i.e. <strong>region</strong>:</p>
-<div class="sourceCode" id="cb15"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a>sns.boxplot(x <span class="op">=</span> <span class="st">&#39;Region&#39;</span>, y <span class="op">=</span> <span class="st">&#39;Score&#39;</span>, data <span class="op">=</span> dt) </span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a>sns.boxplot(x <span class="op">=</span> <span class="st">&#39;Region&#39;</span>, y <span class="op">=</span> <span class="st">&#39;Score&#39;</span>, data <span class="op">=</span> dt) </span></code></pre></div>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-11-7.png" width="672" /></p>
 <p>First <strong>scatter plot</strong>:</p>
-<div class="sourceCode" id="cb16"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a>plt.scatter(x<span class="op">=</span><span class="st">&quot;PropertyRights&quot;</span>, y<span class="op">=</span><span class="st">&quot;Score&quot;</span>, data<span class="op">=</span>dt)</span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a>plt.scatter(x<span class="op">=</span><span class="st">&quot;PropertyRights&quot;</span>, y<span class="op">=</span><span class="st">&quot;Score&quot;</span>, data<span class="op">=</span>dt)</span></code></pre></div>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-12-9.png" width="672" /></p>
 <p>We can put directly the <strong>linear regression
 fitting</strong>:</p>
-<div class="sourceCode" id="cb17"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a>sns.lmplot(x<span class="op">=</span><span class="st">&quot;PropertyRights&quot;</span>, y<span class="op">=</span><span class="st">&quot;Score&quot;</span>, data<span class="op">=</span>dt)</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a>sns.lmplot(x<span class="op">=</span><span class="st">&quot;PropertyRights&quot;</span>, y<span class="op">=</span><span class="st">&quot;Score&quot;</span>, data<span class="op">=</span>dt)</span></code></pre></div>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-13-11.png" width="242" /><img src="intro_python_files/figure-html/unnamed-chunk-13-12.png" width="480" /></p>
 <p>Density plot of the <strong>score</strong> variable:</p>
-<div class="sourceCode" id="cb18"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a>sns.distplot(dt.Score, color<span class="op">=</span><span class="st">&quot;r&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a>sns.distplot(dt.Score, color<span class="op">=</span><span class="st">&quot;r&quot;</span>)</span></code></pre></div>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-14-15.png" width="672" /></p>
 <p><strong>Pair plot</strong> considering some variables, i.e. Property
 Rights, Labor Freedom, Government Integrity, Judical Effectiveness,
 Fiscal Health, Region and Score:</p>
-<div class="sourceCode" id="cb19"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a>dt1 <span class="op">=</span> dt[[<span class="st">&#39;PropertyRights&#39;</span>, <span class="st">&#39;LaborFreedom&#39;</span>, <span class="st">&#39;GovernmentIntegrity&#39;</span>, <span class="st">&#39;JudicalEffectiveness&#39;</span>,<span class="st">&#39;FiscalHealth&#39;</span>, <span class="st">&quot;Score&quot;</span>, <span class="st">&#39;Region&#39;</span>]]</span></code></pre></div>
-<div class="sourceCode" id="cb20"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a>matplotlib.rc_file_defaults()</span>
-<span id="cb20-2"><a href="#cb20-2" tabindex="-1"></a>sns.pairplot(dt1, hue<span class="op">=</span><span class="st">&quot;Region&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a>dt1 <span class="op">=</span> dt[[<span class="st">&#39;PropertyRights&#39;</span>, <span class="st">&#39;LaborFreedom&#39;</span>, <span class="st">&#39;GovernmentIntegrity&#39;</span>, <span class="st">&#39;JudicalEffectiveness&#39;</span>,<span class="st">&#39;FiscalHealth&#39;</span>, <span class="st">&quot;Score&quot;</span>, <span class="st">&#39;Region&#39;</span>]]</span></code></pre></div>
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a>matplotlib.rc_file_defaults()</span>
+<span id="cb24-2"><a href="#cb24-2" tabindex="-1"></a>sns.pairplot(dt1, hue<span class="op">=</span><span class="st">&quot;Region&quot;</span>)</span></code></pre></div>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-16-17.png" width="868" /><img src="intro_python_files/figure-html/unnamed-chunk-16-18.png" width="1678" /></p>
 </div>
 </div>
 <div id="linear-regression" class="section level1">
 <h1><span style="color:blue"> Linear regression </span></h1>
 <p>Import packages</p>
-<div class="sourceCode" id="cb21"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
-<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a><span class="im">import</span> statsmodels.formula.api <span class="im">as</span> smf</span>
-<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span>
-<span id="cb21-4"><a href="#cb21-4" tabindex="-1"></a><span class="im">import</span> sklearn</span></code></pre></div>
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a><span class="im">import</span> statsmodels.formula.api <span class="im">as</span> smf</span>
+<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span>
+<span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a><span class="im">import</span> sklearn</span></code></pre></div>
 <p>Correlation matrix</p>
-<div class="sourceCode" id="cb22"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a>corr <span class="op">=</span> dt[[<span class="st">&#39;PropertyRights&#39;</span>, <span class="st">&#39;LaborFreedom&#39;</span>, <span class="st">&#39;GovernmentIntegrity&#39;</span>, <span class="st">&#39;JudicalEffectiveness&#39;</span>,<span class="st">&#39;FiscalHealth&#39;</span>, <span class="st">&quot;Score&quot;</span>]].corr()</span>
-<span id="cb22-2"><a href="#cb22-2" tabindex="-1"></a>corr</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" tabindex="-1"></a>corr <span class="op">=</span> dt[[<span class="st">&#39;PropertyRights&#39;</span>, <span class="st">&#39;LaborFreedom&#39;</span>, <span class="st">&#39;GovernmentIntegrity&#39;</span>, <span class="st">&#39;JudicalEffectiveness&#39;</span>,<span class="st">&#39;FiscalHealth&#39;</span>, <span class="st">&quot;Score&quot;</span>]].corr()</span>
+<span id="cb26-2"><a href="#cb26-2" tabindex="-1"></a>corr</span></code></pre></div>
 <pre><code>##                       PropertyRights  LaborFreedom  ...  FiscalHealth     Score
 ## PropertyRights              1.000000      0.432746  ...      0.329969  0.876601
 ## LaborFreedom                0.432746      1.000000  ...      0.104431  0.512976
@@ -614,45 +618,45 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a h
 ## 
 ## [6 rows x 6 columns]</code></pre>
 <p>Heatmap of the <strong>correlation matrix</strong>:</p>
-<div class="sourceCode" id="cb24"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a>sns.heatmap(corr, </span>
-<span id="cb24-2"><a href="#cb24-2" tabindex="-1"></a>        xticklabels<span class="op">=</span>corr.columns,</span>
-<span id="cb24-3"><a href="#cb24-3" tabindex="-1"></a>        yticklabels<span class="op">=</span>corr.columns)</span></code></pre></div>
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a>sns.heatmap(corr, </span>
+<span id="cb28-2"><a href="#cb28-2" tabindex="-1"></a>        xticklabels<span class="op">=</span>corr.columns,</span>
+<span id="cb28-3"><a href="#cb28-3" tabindex="-1"></a>        yticklabels<span class="op">=</span>corr.columns)</span></code></pre></div>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-19-21.png" width="672" /></p>
 <p>We split the dataset into training (0.8) and test set (0.2):</p>
-<div class="sourceCode" id="cb25"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a>msk <span class="op">=</span> np.random.rand(<span class="bu">len</span>(dt)) <span class="op">&lt;</span> <span class="fl">0.8</span></span>
-<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a>train <span class="op">=</span> dt[msk]</span>
-<span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a>test <span class="op">=</span> dt[<span class="op">~</span>msk]</span></code></pre></div>
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb29-2"><a href="#cb29-2" tabindex="-1"></a>msk <span class="op">=</span> np.random.rand(<span class="bu">len</span>(dt)) <span class="op">&lt;</span> <span class="fl">0.8</span></span>
+<span id="cb29-3"><a href="#cb29-3" tabindex="-1"></a>train <span class="op">=</span> dt[msk]</span>
+<span id="cb29-4"><a href="#cb29-4" tabindex="-1"></a>test <span class="op">=</span> dt[<span class="op">~</span>msk]</span></code></pre></div>
 <p><strong>Linear regression</strong> having as dependent variable the
 <strong>Score</strong> and PropertyRights, LaborFreedom and FiscalHealth
 as explicative variables:</p>
-<div class="sourceCode" id="cb26"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" tabindex="-1"></a>results <span class="op">=</span> smf.ols(<span class="st">&#39;Score ~ PropertyRights + LaborFreedom + FiscalHealth&#39;</span>, data<span class="op">=</span>train).fit()</span>
-<span id="cb26-2"><a href="#cb26-2" tabindex="-1"></a>results.summary()</span></code></pre></div>
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a>results <span class="op">=</span> smf.ols(<span class="st">&#39;Score ~ PropertyRights + LaborFreedom + FiscalHealth&#39;</span>, data<span class="op">=</span>train).fit()</span>
+<span id="cb30-2"><a href="#cb30-2" tabindex="-1"></a>results.summary()</span></code></pre></div>
 <table class="simpletable">
 <caption>OLS Regression Results</caption>
 <tr>
-  <th>Dep. Variable:</th>          <td>Score</td>      <th>  R-squared:         </th> <td>   0.885</td>
+  <th>Dep. Variable:</th>          <td>Score</td>      <th>  R-squared:         </th> <td>   0.894</td>
 </tr>
 <tr>
-  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th> <td>   0.882</td>
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th> <td>   0.892</td>
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th> <td>   330.7</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th> <td>   354.4</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 18 Mar 2025</td> <th>  Prob (F-statistic):</th> <td>2.31e-60</td>
+  <th>Date:</th>             <td>Thu, 29 May 2025</td> <th>  Prob (F-statistic):</th> <td>3.28e-61</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>15:11:39</td>     <th>  Log-Likelihood:    </th> <td> -351.81</td>
+  <th>Time:</th>                 <td>17:41:31</td>     <th>  Log-Likelihood:    </th> <td> -340.85</td>
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>   133</td>      <th>  AIC:               </th> <td>   711.6</td>
+  <th>No. Observations:</th>      <td>   130</td>      <th>  AIC:               </th> <td>   689.7</td>
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>   129</td>      <th>  BIC:               </th> <td>   723.2</td>
+  <th>Df Residuals:</th>          <td>   126</td>      <th>  BIC:               </th> <td>   701.2</td>
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     3</td>      <th>                     </th>     <td> </td>   
@@ -666,65 +670,65 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a h
          <td></td>           <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>Intercept</th>      <td>   25.6681</td> <td>    1.425</td> <td>   18.013</td> <td> 0.000</td> <td>   22.849</td> <td>   28.487</td>
+  <th>Intercept</th>      <td>   27.2593</td> <td>    1.386</td> <td>   19.674</td> <td> 0.000</td> <td>   24.517</td> <td>   30.001</td>
 </tr>
 <tr>
-  <th>PropertyRights</th> <td>    0.3655</td> <td>    0.019</td> <td>   18.969</td> <td> 0.000</td> <td>    0.327</td> <td>    0.404</td>
+  <th>PropertyRights</th> <td>    0.3797</td> <td>    0.017</td> <td>   21.821</td> <td> 0.000</td> <td>    0.345</td> <td>    0.414</td>
 </tr>
 <tr>
-  <th>LaborFreedom</th>   <td>    0.1550</td> <td>    0.025</td> <td>    6.182</td> <td> 0.000</td> <td>    0.105</td> <td>    0.205</td>
+  <th>LaborFreedom</th>   <td>    0.1354</td> <td>    0.024</td> <td>    5.744</td> <td> 0.000</td> <td>    0.089</td> <td>    0.182</td>
 </tr>
 <tr>
-  <th>FiscalHealth</th>   <td>    0.1023</td> <td>    0.011</td> <td>    9.672</td> <td> 0.000</td> <td>    0.081</td> <td>    0.123</td>
+  <th>FiscalHealth</th>   <td>    0.0856</td> <td>    0.011</td> <td>    8.066</td> <td> 0.000</td> <td>    0.065</td> <td>    0.107</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td> 1.904</td> <th>  Durbin-Watson:     </th> <td>   1.947</td>
+  <th>Omnibus:</th>       <td> 3.265</td> <th>  Durbin-Watson:     </th> <td>   1.869</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.386</td> <th>  Jarque-Bera (JB):  </th> <td>   1.952</td>
+  <th>Prob(Omnibus):</th> <td> 0.195</td> <th>  Jarque-Bera (JB):  </th> <td>   2.798</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-0.251</td> <th>  Prob(JB):          </th> <td>   0.377</td>
+  <th>Skew:</th>          <td>-0.346</td> <th>  Prob(JB):          </th> <td>   0.247</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 2.684</td> <th>  Cond. No.          </th> <td>    503.</td>
+  <th>Kurtosis:</th>      <td> 3.191</td> <th>  Cond. No.          </th> <td>    510.</td>
 </tr>
 </table><br/><br/>Notes:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 <p>We <strong>predict</strong> the score values using the test set:</p>
-<div class="sourceCode" id="cb27"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a>pred <span class="op">=</span> results.predict(test)</span>
-<span id="cb27-2"><a href="#cb27-2" tabindex="-1"></a>plt.scatter(test.Score, pred,  color<span class="op">=</span><span class="st">&#39;b&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" tabindex="-1"></a>pred <span class="op">=</span> results.predict(test)</span>
+<span id="cb31-2"><a href="#cb31-2" tabindex="-1"></a>plt.scatter(test.Score, pred,  color<span class="op">=</span><span class="st">&#39;b&#39;</span>)</span></code></pre></div>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-22-23.png" width="672" /></p>
 <p>Compute the <strong>mean squared error</strong>:</p>
-<div class="sourceCode" id="cb28"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a>mean_squared_error(test.Score, pred)</span></code></pre></div>
-<pre><code>## 18.00783603691575</code></pre>
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" tabindex="-1"></a>mean_squared_error(test.Score, pred)</span></code></pre></div>
+<pre><code>## 20.0293384954203</code></pre>
 <p>We try to use a <strong>linear mixed model</strong>, considering as
 random effects the Region variable.</p>
-<div class="sourceCode" id="cb30"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a>md <span class="op">=</span> smf.mixedlm(<span class="st">&quot;Score ~ PropertyRights + LaborFreedom + FiscalHealth&quot;</span>, train, groups<span class="op">=</span><span class="st">&quot;Region&quot;</span>)</span>
-<span id="cb30-2"><a href="#cb30-2" tabindex="-1"></a>mdf <span class="op">=</span> md.fit()</span>
-<span id="cb30-3"><a href="#cb30-3" tabindex="-1"></a>mdf.summary()</span></code></pre></div>
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" tabindex="-1"></a>md <span class="op">=</span> smf.mixedlm(<span class="st">&quot;Score ~ PropertyRights + LaborFreedom + FiscalHealth&quot;</span>, train, groups<span class="op">=</span><span class="st">&quot;Region&quot;</span>)</span>
+<span id="cb34-2"><a href="#cb34-2" tabindex="-1"></a>mdf <span class="op">=</span> md.fit()</span>
+<span id="cb34-3"><a href="#cb34-3" tabindex="-1"></a>mdf.summary()</span></code></pre></div>
 <table class="simpletable">
 <tr>
        <td>Model:</td>       <td>MixedLM</td> <td>Dependent Variable:</td>   <td>Score</td>  
 </tr>
 <tr>
-  <td>No. Observations:</td>   <td>133</td>         <td>Method:</td>         <td>REML</td>   
+  <td>No. Observations:</td>   <td>130</td>         <td>Method:</td>         <td>REML</td>   
 </tr>
 <tr>
-     <td>No. Groups:</td>       <td>5</td>          <td>Scale:</td>         <td>11.4408</td> 
+     <td>No. Groups:</td>       <td>5</td>          <td>Scale:</td>         <td>10.7630</td> 
 </tr>
 <tr>
-  <td>Min. group size:</td>    <td>10</td>      <td>Log-Likelihood:</td>   <td>-360.7129</td>
+  <td>Min. group size:</td>     <td>9</td>      <td>Log-Likelihood:</td>   <td>-349.3211</td>
 </tr>
 <tr>
-  <td>Max. group size:</td>    <td>39</td>        <td>Converged:</td>         <td>Yes</td>   
+  <td>Max. group size:</td>    <td>37</td>        <td>Converged:</td>         <td>Yes</td>   
 </tr>
 <tr>
-  <td>Mean group size:</td>   <td>26.6</td>            <td></td>               <td></td>     
+  <td>Mean group size:</td>   <td>26.0</td>            <td></td>               <td></td>     
 </tr>
 </table>
 <table class="simpletable">
@@ -732,21 +736,21 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a h
          <td></td>         <th>Coef.</th> <th>Std.Err.</th>    <th>z</th>   <th>P>|z|</th> <th>[0.025</th> <th>0.975]</th>
 </tr>
 <tr>
-  <th>Intercept</th>      <td>24.859</td>   <td>1.584</td>  <td>15.689</td> <td>0.000</td> <td>21.753</td> <td>27.964</td>
+  <th>Intercept</th>      <td>26.292</td>   <td>1.571</td>  <td>16.731</td> <td>0.000</td> <td>23.212</td> <td>29.372</td>
 </tr>
 <tr>
-  <th>PropertyRights</th>  <td>0.378</td>   <td>0.022</td>  <td>17.271</td> <td>0.000</td>  <td>0.335</td>  <td>0.421</td>
+  <th>PropertyRights</th>  <td>0.393</td>   <td>0.020</td>  <td>19.609</td> <td>0.000</td>  <td>0.354</td>  <td>0.433</td>
 </tr>
 <tr>
-  <th>LaborFreedom</th>    <td>0.153</td>   <td>0.025</td>   <td>6.029</td> <td>0.000</td>  <td>0.103</td>  <td>0.202</td>
+  <th>LaborFreedom</th>    <td>0.136</td>   <td>0.023</td>   <td>5.826</td> <td>0.000</td>  <td>0.090</td>  <td>0.181</td>
 </tr>
 <tr>
-  <th>FiscalHealth</th>    <td>0.108</td>   <td>0.011</td>   <td>9.766</td> <td>0.000</td>  <td>0.086</td>  <td>0.129</td>
+  <th>FiscalHealth</th>    <td>0.091</td>   <td>0.011</td>   <td>8.221</td> <td>0.000</td>  <td>0.070</td>  <td>0.113</td>
 </tr>
 <tr>
-  <th>Region Var</th>      <td>0.892</td>   <td>0.332</td>     <td></td>      <td></td>       <td></td>       <td></td>   
+  <th>Region Var</th>      <td>1.128</td>   <td>0.385</td>     <td></td>      <td></td>       <td></td>       <td></td>   
 </tr>
-</table><br/>
+</table>
 <p>See <a href="http://www.statsmodels.org/stable/index.html"
 class="uri">http://www.statsmodels.org/stable/index.html</a> for other
 commands about the linear (mixed) model. Also, <a
@@ -757,47 +761,47 @@ makes a comparison between R lmer and Statsmodels MixedLM.</p>
 <div id="principal-component-analysis" class="section level1">
 <h1><span style="color:blue"> Principal Component Analysis </span></h1>
 <p>Import packages:</p>
-<div class="sourceCode" id="cb31"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
-<span id="cb31-2"><a href="#cb31-2" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
-<span id="cb31-3"><a href="#cb31-3" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb35-2"><a href="#cb35-2" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb35-3"><a href="#cb35-3" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
 <p>Standardize data:</p>
-<div class="sourceCode" id="cb32"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">&#39;PropertyRights&#39;</span>, <span class="st">&#39;LaborFreedom&#39;</span>, <span class="st">&#39;GovernmentIntegrity&#39;</span>, <span class="st">&#39;JudicalEffectiveness&#39;</span>,<span class="st">&#39;FiscalHealth&#39;</span>]</span>
-<span id="cb32-2"><a href="#cb32-2" tabindex="-1"></a><span class="co"># Separating out the features</span></span>
-<span id="cb32-3"><a href="#cb32-3" tabindex="-1"></a>x <span class="op">=</span> dt.loc[:, features].values</span>
-<span id="cb32-4"><a href="#cb32-4" tabindex="-1"></a><span class="co"># Separating out the target</span></span>
-<span id="cb32-5"><a href="#cb32-5" tabindex="-1"></a>y <span class="op">=</span> dt.loc[:,<span class="st">&#39;Score&#39;</span>].values</span>
-<span id="cb32-6"><a href="#cb32-6" tabindex="-1"></a><span class="co"># Standardizing the features</span></span>
-<span id="cb32-7"><a href="#cb32-7" tabindex="-1"></a>x <span class="op">=</span> StandardScaler().fit_transform(x)</span></code></pre></div>
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">&#39;PropertyRights&#39;</span>, <span class="st">&#39;LaborFreedom&#39;</span>, <span class="st">&#39;GovernmentIntegrity&#39;</span>, <span class="st">&#39;JudicalEffectiveness&#39;</span>,<span class="st">&#39;FiscalHealth&#39;</span>]</span>
+<span id="cb36-2"><a href="#cb36-2" tabindex="-1"></a><span class="co"># Separating out the features</span></span>
+<span id="cb36-3"><a href="#cb36-3" tabindex="-1"></a>x <span class="op">=</span> dt.loc[:, features].values</span>
+<span id="cb36-4"><a href="#cb36-4" tabindex="-1"></a><span class="co"># Separating out the target</span></span>
+<span id="cb36-5"><a href="#cb36-5" tabindex="-1"></a>y <span class="op">=</span> dt.loc[:,<span class="st">&#39;Score&#39;</span>].values</span>
+<span id="cb36-6"><a href="#cb36-6" tabindex="-1"></a><span class="co"># Standardizing the features</span></span>
+<span id="cb36-7"><a href="#cb36-7" tabindex="-1"></a>x <span class="op">=</span> StandardScaler().fit_transform(x)</span></code></pre></div>
 <p>Perform PCA considering <span class="math inline">\(2\)</span>
 principal components:</p>
-<div class="sourceCode" id="cb33"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" tabindex="-1"></a>pca <span class="op">=</span> PCA(<span class="dv">4</span>)</span>
-<span id="cb33-2"><a href="#cb33-2" tabindex="-1"></a>projected <span class="op">=</span> pca.fit_transform(x)</span></code></pre></div>
-<div class="sourceCode" id="cb34"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" tabindex="-1"></a><span class="bu">print</span>(x.shape)</span></code></pre></div>
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" tabindex="-1"></a>pca <span class="op">=</span> PCA(<span class="dv">4</span>)</span>
+<span id="cb37-2"><a href="#cb37-2" tabindex="-1"></a>projected <span class="op">=</span> pca.fit_transform(x)</span></code></pre></div>
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" tabindex="-1"></a><span class="bu">print</span>(x.shape)</span></code></pre></div>
 <pre><code>## (173, 5)</code></pre>
-<div class="sourceCode" id="cb36"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" tabindex="-1"></a><span class="bu">print</span>(projected.shape)</span></code></pre></div>
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" tabindex="-1"></a><span class="bu">print</span>(projected.shape)</span></code></pre></div>
 <pre><code>## (173, 4)</code></pre>
 <p>Plot the first <span class="math inline">\(2\)</span> principal
 components:</p>
-<div class="sourceCode" id="cb38"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" tabindex="-1"></a>plt.scatter(projected[:, <span class="dv">0</span>], projected[:, <span class="dv">1</span>],</span>
-<span id="cb38-2"><a href="#cb38-2" tabindex="-1"></a>            c<span class="op">=</span>y, edgecolor<span class="op">=</span><span class="st">&#39;none&#39;</span>, alpha<span class="op">=</span><span class="fl">0.5</span>,</span>
-<span id="cb38-3"><a href="#cb38-3" tabindex="-1"></a>            cmap<span class="op">=</span>plt.cm.get_cmap(<span class="st">&#39;seismic&#39;</span>, <span class="dv">10</span>))</span>
-<span id="cb38-4"><a href="#cb38-4" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;component 1&#39;</span>)</span>
-<span id="cb38-5"><a href="#cb38-5" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;component 2&#39;</span>)</span>
-<span id="cb38-6"><a href="#cb38-6" tabindex="-1"></a>plt.colorbar()</span></code></pre></div>
-<pre><code>## &lt;matplotlib.colorbar.Colorbar object at 0x0000020DA20C87D0&gt;</code></pre>
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" tabindex="-1"></a>plt.scatter(projected[:, <span class="dv">0</span>], projected[:, <span class="dv">1</span>],</span>
+<span id="cb42-2"><a href="#cb42-2" tabindex="-1"></a>            c<span class="op">=</span>y, edgecolor<span class="op">=</span><span class="st">&#39;none&#39;</span>, alpha<span class="op">=</span><span class="fl">0.5</span>,</span>
+<span id="cb42-3"><a href="#cb42-3" tabindex="-1"></a>            cmap<span class="op">=</span>plt.cm.get_cmap(<span class="st">&#39;seismic&#39;</span>, <span class="dv">10</span>))</span>
+<span id="cb42-4"><a href="#cb42-4" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;component 1&#39;</span>)</span>
+<span id="cb42-5"><a href="#cb42-5" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;component 2&#39;</span>)</span>
+<span id="cb42-6"><a href="#cb42-6" tabindex="-1"></a>plt.colorbar()</span></code></pre></div>
+<pre><code>## &lt;matplotlib.colorbar.Colorbar object at 0x000002645E0343D0&gt;</code></pre>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-29-25.png" width="672" /></p>
-<div class="sourceCode" id="cb40"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" tabindex="-1"></a>plt.plot(np.cumsum(pca.explained_variance_ratio_)) </span>
-<span id="cb40-2"><a href="#cb40-2" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Number of component&quot;</span>) </span>
-<span id="cb40-3"><a href="#cb40-3" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Variance explained&quot;</span>)</span>
-<span id="cb40-4"><a href="#cb40-4" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="dv">4</span>), [<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>])</span></code></pre></div>
-<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x0000020DA20474D0&gt;, &lt;matplotlib.axis.XTick object at 0x0000020DA20D5950&gt;, &lt;matplotlib.axis.XTick object at 0x0000020DA20D60D0&gt;, &lt;matplotlib.axis.XTick object at 0x0000020DA20D6850&gt;], [Text(0, 0, &#39;1&#39;), Text(1, 0, &#39;2&#39;), Text(2, 0, &#39;3&#39;), Text(3, 0, &#39;4&#39;)])</code></pre>
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" tabindex="-1"></a>plt.plot(np.cumsum(pca.explained_variance_ratio_)) </span>
+<span id="cb44-2"><a href="#cb44-2" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Number of component&quot;</span>) </span>
+<span id="cb44-3"><a href="#cb44-3" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Variance explained&quot;</span>)</span>
+<span id="cb44-4"><a href="#cb44-4" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="dv">4</span>), [<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>])</span></code></pre></div>
+<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x000002645E0C1220&gt;, &lt;matplotlib.axis.XTick object at 0x000002645E0D17C0&gt;, &lt;matplotlib.axis.XTick object at 0x000002645E0D12B0&gt;, &lt;matplotlib.axis.XTick object at 0x000002645E1030D0&gt;], [Text(0, 0, &#39;1&#39;), Text(1, 0, &#39;2&#39;), Text(2, 0, &#39;3&#39;), Text(3, 0, &#39;4&#39;)])</code></pre>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-30-27.png" width="672" /></p>
 </div>
 
