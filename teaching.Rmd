@@ -7,6 +7,10 @@ output:
 
 ### `r emoji::emoji("teapot")` Teaching
 
+* [ay 2025-2026] Statistics for language sciences, Master Degree in Language Sciences, University of Venice [60 hours] 
+
+* [ay 2025-2026] Laboratory for the Statistic course, Bachelor Degree in Economics, University of Venice [30 hours] *lecturer*
+
 * [ay 2024-2025] Statistic, Bachelor Degree in Economics, University of Trento [48 hours] 
 
 * [ay 2024-2025] Statistic for quality control, Bachelor Degree in Economics, University of Trento [48 hours] 
@@ -40,6 +44,8 @@ output:
 * [ay 2020-2021] Laboratory for the Psychometrics course, Bachelor Degree in Psychological Sciences of Development, Personality personality and interpersonal relations, University of Padova [20 hours] *lecturer* [MATERIALS](https://github.com/angeella/Psicometria_Mod_A)
 
 ### `r emoji::emoji("teapot")` Educational lectures
+
+* [ay 2024-2025] Robust Inference for Generalized Linear Mixed Models: the flip2sss approach, Lecture within the course "Health Data Science," Master’s Degree in Data Analytics for Business and Society, Ca’ Foscari University of Venice, Italy.
 
 * [ay 2023-2024] Permutation-based cluster inference in Electroencephalography (EEG) data, Lecture didactic within the teaching "Psychometrics for Cognitive Neuroscience," Master degree in Statistic, University of Padova, Italy.
 

@@ -23,7 +23,7 @@ rc={'axes.labelsize': 25, 'figure.figsize': (20,10),
 sns.set(rc=rc)
 
 #Path data
-path = 'C:/Users/Andreella/Documents/GitHub/angeella.github.io/Data'
+path = 'C:/Users/Andreella/Desktop/Doc/GitHub/angeella.github.io/Data'
 df = pd.read_csv(path + '/amazon.csv',encoding="ISO-8859-1")
 ```
 

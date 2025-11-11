@@ -445,7 +445,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a hr
 <span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a>sns.<span class="bu">set</span>(rc<span class="op">=</span>rc)</span>
 <span id="cb1-10"><a href="#cb1-10" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" tabindex="-1"></a><span class="co">#Path data</span></span>
-<span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a>path <span class="op">=</span> <span class="st">&#39;C:/Users/Andreella/Documents/GitHub/angeella.github.io/Data&#39;</span></span>
+<span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a>path <span class="op">=</span> <span class="st">&#39;C:/Users/Andreella/Desktop/Doc/GitHub/angeella.github.io/Data&#39;</span></span>
 <span id="cb1-13"><a href="#cb1-13" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(path <span class="op">+</span> <span class="st">&#39;/amazon.csv&#39;</span>,encoding<span class="op">=</span><span class="st">&quot;ISO-8859-1&quot;</span>)</span></code></pre></div>
 <p>First <span class="math inline">\(3\)</span> observations:</p>
 <div class="sourceCode" id="cb2"><pre
@@ -638,25 +638,25 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a h
 <table class="simpletable">
 <caption>OLS Regression Results</caption>
 <tr>
-  <th>Dep. Variable:</th>          <td>Score</td>      <th>  R-squared:         </th> <td>   0.888</td>
+  <th>Dep. Variable:</th>          <td>Score</td>      <th>  R-squared:         </th> <td>   0.869</td>
 </tr>
 <tr>
-  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th> <td>   0.885</td>
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th> <td>   0.866</td>
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th> <td>   343.2</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th> <td>   282.3</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Thu, 29 May 2025</td> <th>  Prob (F-statistic):</th> <td>1.45e-61</td>
+  <th>Date:</th>             <td>Tue, 11 Nov 2025</td> <th>  Prob (F-statistic):</th> <td>3.15e-56</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>17:48:59</td>     <th>  Log-Likelihood:    </th> <td> -362.28</td>
+  <th>Time:</th>                 <td>11:13:31</td>     <th>  Log-Likelihood:    </th> <td> -363.21</td>
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>   134</td>      <th>  AIC:               </th> <td>   732.6</td>
+  <th>No. Observations:</th>      <td>   132</td>      <th>  AIC:               </th> <td>   734.4</td>
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>   130</td>      <th>  BIC:               </th> <td>   744.2</td>
+  <th>Df Residuals:</th>          <td>   128</td>      <th>  BIC:               </th> <td>   745.9</td>
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     3</td>      <th>                     </th>     <td> </td>   
@@ -670,30 +670,30 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a h
          <td></td>           <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>Intercept</th>      <td>   25.5973</td> <td>    1.491</td> <td>   17.165</td> <td> 0.000</td> <td>   22.647</td> <td>   28.548</td>
+  <th>Intercept</th>      <td>   27.3149</td> <td>    1.636</td> <td>   16.693</td> <td> 0.000</td> <td>   24.077</td> <td>   30.553</td>
 </tr>
 <tr>
-  <th>PropertyRights</th> <td>    0.3685</td> <td>    0.019</td> <td>   19.743</td> <td> 0.000</td> <td>    0.332</td> <td>    0.405</td>
+  <th>PropertyRights</th> <td>    0.3776</td> <td>    0.020</td> <td>   18.741</td> <td> 0.000</td> <td>    0.338</td> <td>    0.417</td>
 </tr>
 <tr>
-  <th>LaborFreedom</th>   <td>    0.1536</td> <td>    0.025</td> <td>    6.041</td> <td> 0.000</td> <td>    0.103</td> <td>    0.204</td>
+  <th>LaborFreedom</th>   <td>    0.1158</td> <td>    0.028</td> <td>    4.207</td> <td> 0.000</td> <td>    0.061</td> <td>    0.170</td>
 </tr>
 <tr>
-  <th>FiscalHealth</th>   <td>    0.1012</td> <td>    0.011</td> <td>    9.268</td> <td> 0.000</td> <td>    0.080</td> <td>    0.123</td>
+  <th>FiscalHealth</th>   <td>    0.1007</td> <td>    0.012</td> <td>    8.657</td> <td> 0.000</td> <td>    0.078</td> <td>    0.124</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td> 7.081</td> <th>  Durbin-Watson:     </th> <td>   1.959</td>
+  <th>Omnibus:</th>       <td> 4.401</td> <th>  Durbin-Watson:     </th> <td>   1.700</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.029</td> <th>  Jarque-Bera (JB):  </th> <td>   6.780</td>
+  <th>Prob(Omnibus):</th> <td> 0.111</td> <th>  Jarque-Bera (JB):  </th> <td>   4.266</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-0.537</td> <th>  Prob(JB):          </th> <td>  0.0337</td>
+  <th>Skew:</th>          <td>-0.440</td> <th>  Prob(JB):          </th> <td>   0.118</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 3.249</td> <th>  Cond. No.          </th> <td>    513.</td>
+  <th>Kurtosis:</th>      <td> 2.969</td> <th>  Cond. No.          </th> <td>    526.</td>
 </tr>
 </table><br/><br/>Notes:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 <p>We <strong>predict</strong> the score values using the test set:</p>
@@ -704,7 +704,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a h
 <p>Compute the <strong>mean squared error</strong>:</p>
 <div class="sourceCode" id="cb32"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" tabindex="-1"></a>mean_squared_error(test.Score, pred)</span></code></pre></div>
-<pre><code>## 13.195898426565337</code></pre>
+<pre><code>## 8.981537071084368</code></pre>
 <p>We try to use a <strong>linear mixed model</strong>, considering as
 random effects the Region variable.</p>
 <div class="sourceCode" id="cb34"><pre
@@ -716,19 +716,19 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a h
        <td>Model:</td>       <td>MixedLM</td> <td>Dependent Variable:</td>   <td>Score</td>  
 </tr>
 <tr>
-  <td>No. Observations:</td>   <td>134</td>         <td>Method:</td>         <td>REML</td>   
+  <td>No. Observations:</td>   <td>132</td>         <td>Method:</td>         <td>REML</td>   
 </tr>
 <tr>
-     <td>No. Groups:</td>       <td>5</td>          <td>Scale:</td>         <td>12.8113</td> 
+     <td>No. Groups:</td>       <td>5</td>          <td>Scale:</td>         <td>14.1628</td> 
 </tr>
 <tr>
-  <td>Min. group size:</td>    <td>10</td>      <td>Log-Likelihood:</td>   <td>-371.0757</td>
+  <td>Min. group size:</td>    <td>10</td>      <td>Log-Likelihood:</td>   <td>-371.8209</td>
 </tr>
 <tr>
-  <td>Max. group size:</td>    <td>37</td>        <td>Converged:</td>         <td>Yes</td>   
+  <td>Max. group size:</td>    <td>36</td>        <td>Converged:</td>         <td>Yes</td>   
 </tr>
 <tr>
-  <td>Mean group size:</td>   <td>26.8</td>            <td></td>               <td></td>     
+  <td>Mean group size:</td>   <td>26.4</td>            <td></td>               <td></td>     
 </tr>
 </table>
 <table class="simpletable">
@@ -736,19 +736,19 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a h
          <td></td>         <th>Coef.</th> <th>Std.Err.</th>    <th>z</th>   <th>P>|z|</th> <th>[0.025</th> <th>0.975]</th>
 </tr>
 <tr>
-  <th>Intercept</th>      <td>24.815</td>   <td>1.683</td>  <td>14.748</td> <td>0.000</td> <td>21.517</td> <td>28.113</td>
+  <th>Intercept</th>      <td>26.132</td>   <td>1.873</td>  <td>13.954</td> <td>0.000</td> <td>22.461</td> <td>29.802</td>
 </tr>
 <tr>
-  <th>PropertyRights</th>  <td>0.385</td>   <td>0.022</td>  <td>17.316</td> <td>0.000</td>  <td>0.342</td>  <td>0.429</td>
+  <th>PropertyRights</th>  <td>0.391</td>   <td>0.023</td>  <td>16.752</td> <td>0.000</td>  <td>0.345</td>  <td>0.437</td>
 </tr>
 <tr>
-  <th>LaborFreedom</th>    <td>0.148</td>   <td>0.026</td>   <td>5.755</td> <td>0.000</td>  <td>0.098</td>  <td>0.199</td>
+  <th>LaborFreedom</th>    <td>0.120</td>   <td>0.027</td>   <td>4.364</td> <td>0.000</td>  <td>0.066</td>  <td>0.174</td>
 </tr>
 <tr>
-  <th>FiscalHealth</th>    <td>0.107</td>   <td>0.012</td>   <td>9.258</td> <td>0.000</td>  <td>0.085</td>  <td>0.130</td>
+  <th>FiscalHealth</th>    <td>0.106</td>   <td>0.012</td>   <td>8.773</td> <td>0.000</td>  <td>0.083</td>  <td>0.130</td>
 </tr>
 <tr>
-  <th>Region Var</th>      <td>1.229</td>   <td>0.421</td>     <td></td>      <td></td>       <td></td>       <td></td>   
+  <th>Region Var</th>      <td>1.146</td>   <td>0.389</td>     <td></td>      <td></td>       <td></td>       <td></td>   
 </tr>
 </table>
 <p>See <a href="http://www.statsmodels.org/stable/index.html"
@@ -794,14 +794,14 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a h
 <span id="cb42-4"><a href="#cb42-4" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;component 1&#39;</span>)</span>
 <span id="cb42-5"><a href="#cb42-5" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;component 2&#39;</span>)</span>
 <span id="cb42-6"><a href="#cb42-6" tabindex="-1"></a>plt.colorbar()</span></code></pre></div>
-<pre><code>## &lt;matplotlib.colorbar.Colorbar object at 0x000002248B03A250&gt;</code></pre>
+<pre><code>## &lt;matplotlib.colorbar.Colorbar object at 0x00000255B6038490&gt;</code></pre>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-29-25.png" width="672" /></p>
 <div class="sourceCode" id="cb44"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" tabindex="-1"></a>plt.plot(np.cumsum(pca.explained_variance_ratio_)) </span>
 <span id="cb44-2"><a href="#cb44-2" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Number of component&quot;</span>) </span>
 <span id="cb44-3"><a href="#cb44-3" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Variance explained&quot;</span>)</span>
 <span id="cb44-4"><a href="#cb44-4" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="dv">4</span>), [<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>])</span></code></pre></div>
-<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x000002248B0AFA00&gt;, &lt;matplotlib.axis.XTick object at 0x000002248B0AFC10&gt;, &lt;matplotlib.axis.XTick object at 0x000002248B0BF9A0&gt;, &lt;matplotlib.axis.XTick object at 0x000002248B107B50&gt;], [Text(0, 0, &#39;1&#39;), Text(1, 0, &#39;2&#39;), Text(2, 0, &#39;3&#39;), Text(3, 0, &#39;4&#39;)])</code></pre>
+<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x00000255B60C7610&gt;, &lt;matplotlib.axis.XTick object at 0x00000255B60C75E0&gt;, &lt;matplotlib.axis.XTick object at 0x00000255B60AD310&gt;, &lt;matplotlib.axis.XTick object at 0x00000255B61066D0&gt;], [Text(0, 0, &#39;1&#39;), Text(1, 0, &#39;2&#39;), Text(2, 0, &#39;3&#39;), Text(3, 0, &#39;4&#39;)])</code></pre>
 <p><img src="intro_python_files/figure-html/unnamed-chunk-30-27.png" width="672" /></p>
 </div>
 
