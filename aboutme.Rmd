@@ -7,6 +7,14 @@ output:
 
 ### `r emoji::emoji("partly_sunny")` Past positions
 
+* [2025] 
+
+  **Assistant Professor of Statistics**, [RTT] SSD: STAT-01/A (Statistics), Department of Economics and Management, University of Trento, Italy
+
+* [2022]
+
+  **Assistant Professor of Social Statistics**, [RTD-A] SSD: SECS-S/05 (Social Statistics), Department of Economics, Ca’ Foscari University of Venice, Italy.
+
 * [2021] 
   
   **Postdoctoral Researcher in Statistical Sciences, Department of Statistical Sciences, University of Padova.** 
@@ -63,11 +71,13 @@ on the Emergency and Urgency System in Lombardy.
 
 * **[ORGANIZER OF SCIENTIFIC EVENTS]**: 
 
+  Invited paper session ”Advances in Robust Statistical Inference for High-Dimensional Data”, Regional Statistics Conference 2026, 03 - 05 June 2026, Malta
+
   Meeting Social Statisticians, 2022/2023/2024, Treviso, Italy, Ca' Foscari University Venice
   
   International Winter School - MRInference: from Memberships data to knowledge, 2020, online, University of Padova
 
-
+* **Associate Editors**: Statistica Neerlandica
 
 
 

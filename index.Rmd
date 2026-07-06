@@ -14,21 +14,10 @@ output:
 
 #### `r emoji::emoji("bulb")` Research interest
 
-My research focuses on statistical methods for understanding and managing high-dimensional data. I work with dimension reduction techniques, statistical shape analysis, permutation tests, multiple testing, and selective inference.
+My research focuses on the development and application of statistical methods for complex data, with particular emphasis on robust and permutation-based inference, multiple testing, selective inference, mixed-effects models, and resampling methods. My methodological work is strongly motivated by interdisciplinary questions in social statistics, public health, ageing, welfare, neuroscience, psychology, and environmental health. I focus on statistical tools that provide valid and interpretable inference for complex applied data, including high-dimensional, dependent, heterogeneous, and design-sensitive settings. Recent applications include multimorbidity, health inequalities, occupational risk behaviors, childcare services, multiverse analysis, and environmental determinants of health.
 
-I enjoy analyzing data and tackling related challenges using innovative and appropriate statistical methods. I’m part of the [Psicostat](http://ip146179.psy.unipd.it/psicostat/web/) group at the University of Padova, the Italian division of the Global Burden of Disease ([Italian division](https://www.italian-gbd-initiative.it/)) study, and I’m a research fellow in the [Age-it](https://ageit.eu/wp/) and [Planet4Health](https://planet4health.eu/) projects.
+I collaborate with several national and international research groups. I am a member of the [Psicostat](http://ip146179.psy.unipd.it/psicostat/web/) group at the University of Padova, and the Italian Global Burden of Disease research group ([Italian GBD Initiative](https://www.italian-gbd-initiative.it/)). I also contribute as a research fellow to the [Age-it](https://ageit.eu/wp/) and [Planet4Health](https://planet4health.eu/) projects.
 
-#### `r emoji::emoji("bird")` Something about me
-
-I am an Assistant Professor (RTT) in Social Statistics (SSD: STAT-03/B) at the Department of Economics, Ca’ Foscari University of Venice.
-
-Previously, I was an Assistant Professor (RTD-A) in Social Statistics (SSD: SECS-S/05) at the Department of Economics, Ca’ Foscari University of Venice, where I worked—and continue to work—on various projects analyzing Italian social welfare and health data.
-
-Before that, I completed a postdoctoral fellowship at the Department of Statistical Sciences, University of Padova, under the supervision of Professors Bruno Scarpa and Livio Finos, focusing on sample size estimation for Partial Least Squares (PLS) classification in the context of power analysis.
-
-I also held a postdoctoral position at the Department of Science and Technology, University of Insubria, working with Professor Antonietta Mira on modeling data from emergency call centers across the Lombardy region, Italy.
-
-I earned my Ph.D. in Statistical Sciences at the University of Padova under the supervision of Professor Livio Finos, where I focused on statistical methods for analyzing neuroscience data, particularly functional MRI (fMRI) data.
+My research activity is complemented by the development of open-source statistical software, including R packages for permutation-based inference, design analysis, Procrustes-based methods, power analysis, and robust inference.
 
 You can download my CV [here](cv_eng.pdf).
-

@@ -296,7 +296,7 @@ Plot the first $2$ principal components:
 ```{python}
 plt.scatter(projected[:, 0], projected[:, 1],
             c=y, edgecolor='none', alpha=0.5,
-            cmap=plt.cm.get_cmap('seismic', 10))
+            cmap=plt.get_cmap('seismic', 10))
 plt.xlabel('component 1')
 plt.ylabel('component 2')
 plt.colorbar()

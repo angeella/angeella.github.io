@@ -80,15 +80,20 @@ D., Ceccato, C., Pileggi, F., FaustoMazzi, F., Santonastaso, P., Ruggeri, M., Be
 
 * **Andreella, A.**, Campostrini, S., Caldura, F., Bertarelli, G. 2024. A two-step model to analyze the inclusivity’s distribution of Italian childcare services [major revision JRSSA](https://arxiv.org/html/2407.15610v1)
 
-* Stival, M., Andreella, A., Bertarelli, G., Midoes, C., Tonellato, S., De Cian, E., Campostrini, S., 2025. The Perceived Influences of Environment on Health in Italy: a Penalized Ordinal Regression Approach [submitted]
+* Stival, M., Andreella, A., Bertarelli, G., Midoes, C., Tonellato, S., De Cian, E., Campostrini, S., 2025. The Perceived Influences of Environment on Health in Italy: a Penalized Ordinal Regression Approach [submitted](https://arxiv.org/abs/2510.01803)
 
-* Xu, N., Solari, A., Vesely, A., **Andreella, A.**, Goeman, J. 2024. Improve Permutation-based All-Resolution Inference by A Branch and Bound Algorithm [working paper]
+* Xu, N., Solari, A., Vesely, A., **Andreella, A.**, Goeman, J. 2024. Improve Permutation-based All-Resolution Inference by A Branch and Bound Algorithm [submitted]
 
-* Stival, M, **Andreella, A.**, Schiavon, L. 2024. Joining Bayesian models to identify groups of occupations with different risk behaviors in Italy [working paper]
+* Stival, M, **Andreella, A.**, Schiavon, L. 2024. Topic-informed dynamic mixture model for occupational heterogeneity in health risk behaviors [major revision SIM](https://arxiv.org/abs/2512.20408)
 
 * Ferraccioli, F., Finos, L., **Andreella, A.** 2024. A nonparametric test for fixed effects in crossed random effect models [working paper]
 
-* **Andreella, A.**, Finos, L., 2025 Blockwise Resampling for Fixed Effects Inference in Multivariate Linear Mixed Models [working paper]
+* **Andreella, A.**, Finos, L., 2026 Multivariate mixed models with model-free random effects [submitted](https://arxiv.org/abs/2604.27907)
 
-* De Santis, R., Vesely, A., **Andreella, A.** 2025. Inference on multiple quantiles in regression models by a rankscore approach [working paper]
+* De Santis, R., Vesely, A., **Andreella, A.** 2026. Inference on multiple quantiles in regression models by a rankscore approach [submitted](https://arxiv.org/abs/2511.07999)
 
+* **Andreella, A.,** Bertarelli, G., Pittavino, M. 2026. Functional Inference for Assimilation Effects: Evidence from Migrants’ Mental Health in Italy [working paper]
+
+* Vesely, A., **Andreella, A.** 2026. Post-Selection Inference for Multiverse Analysis in Mixed-Effects Models (PIMAX) [submitted]
+
+* 

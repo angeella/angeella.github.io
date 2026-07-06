@@ -45,6 +45,8 @@ output:
 
 ### `r emoji::emoji("teapot")` Educational lectures
 
+* [ay 2025-2026] Robust Inference for Generalized Linear Mixed Models: the flip2sss approach, Lecture within the course "Health Data Science," Master’s Degree in Data Analytics for Business and Society, Ca’ Foscari University of Venice, Italy.
+
 * [ay 2024-2025] Robust Inference for Generalized Linear Mixed Models: the flip2sss approach, Lecture within the course "Health Data Science," Master’s Degree in Data Analytics for Business and Society, Ca’ Foscari University of Venice, Italy.
 
 * [ay 2023-2024] Permutation-based cluster inference in Electroencephalography (EEG) data, Lecture didactic within the teaching "Psychometrics for Cognitive Neuroscience," Master degree in Statistic, University of Padova, Italy.

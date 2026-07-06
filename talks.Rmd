@@ -10,6 +10,12 @@ output:
 
 ### `r emoji::emoji("parrot")` Invited seminars
 
+
+[2026] Statistical Analysis using R. The [Arca](https://arcasummerschool.dpss.psy.unipd.it/arcasummerschool/index.php/program/) Initiative: Unlocking Psychological Expertise for Academic and Business Success, Padova, Italy
+
+[2026] Multiple Testing and Beyond: From Error Control to Post-hoc Inference, Multiple Testing and Beyond: From Error Control to Post-hoc Inference. [Department of Mathematics](https://datascience.maths.unitn.it/events/mt2026/), University of Trento, Trento, Italy
+
+
 [2025] Statistical Analysis using R. The [Arca](https://arcasummerschool.dpss.psy.unipd.it/arcasummerschool/index.php/program/) Initiative: Unlocking Psychological Expertise for Academic and Business Success, Padova, Italy
 
 [2025] Advances in statistical inference for longitudinal generalized linear models. [BEYOND classical p-values](https://beyond.dipsco.unitn.it/home-page), Rovereto, Italy.[MATERIALS](https://github.com/angeella/Summer_School_Beyond)
@@ -29,6 +35,10 @@ output:
 [2019] A Statistical approach to the alignment of fMRI data. Dartmouth College, Department of Psychological and Brain Sciences, Hanover, NH, USA.
 
 ### `r emoji::emoji("parrot")` Invited talks
+
+[2026] Post-Selection Inference for Multiverse Analysis in Mixed-Effects Models (PIMAX), Italian Psychology Association (AIP), Venice, Italy. (symposia, Toward Robust Replicability: Modern Perspectives and Methods
+
+[2025] Inference on Multiple Quantiles in Regression Models by a Rank-score Approach, High-Dimensional Data, Networks, and Beyond workshop, Treviso, Italy.
 
 [2025] Integrate data surveillance system and GBD estimates to analyze comorbidity: the Italian case study. XLIX congresso AIE, Salerno, Italy.
 
@@ -56,9 +66,15 @@ Seattle. USA. (symposia) [SLIDES](Slides/JSM2021.pdf)
 
 ### `r emoji::emoji("parrot")` Invited talks as discussant
 
+[2026] Advances in Robust Statistical Inference for High-Dimensional Data. Regional Statistics Conference 2026, Malta
+
 [2022] Notip: Non-parametric True Discovery Proportion control for brain imaging. International Seminar on Selective Inference. [SLIDES](Slides/SelectiveInference2022.pdf)
 
 ### `r emoji::emoji("parrot")` Contributed talks
+
+[2026] Post-Selection Inference for Multiverse Analysis in Mixed-Effects Models (PIMAX) Italian Statistics Society (SIS), Rome, Italy.
+
+[2025] Inference on Multiple Quantiles in Regression Models by a Rank-score Approach, Joint Conference of the Italian and Eastern Mediterranean Regions of the International Biometric Society (IBS-IR-EMR2025), Salerno, Italy
 
 [2025] Blockwise Resampling for Robust Fixed Effects Inference in Linear Mixed Model, Italian Statistics Society (SIS), Genova, Italy.
 

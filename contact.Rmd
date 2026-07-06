@@ -15,6 +15,4 @@ output:
 
 
 
-My cv is downloadable [here](cv_eng.pdf) for the English version and [here](cv_ita.pdf) for the Italian one.
-
-
+My cv is downloadable [here](cv_eng.pdf).
